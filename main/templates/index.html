@@ -248,9 +248,7 @@ ready for another year of being indoctirnated by the matrix and getting referall
 
 <div class="container mx-auto py-10">
     {% comment %} OUR MOTTO HEADING {% endcomment %}
-    <div class = "w-1/3 border-b-4 border-[#9D2235]" style = "margin: 20px auto; "> 
-        <h1 class = "m-auto text-center text-6xl pb-3 font-bold">Our <span class = "text-[#9D2235]" >Motto</span></h1>
-    </div> 
+    
     
 
 
@@ -289,15 +287,102 @@ ready for another year of being indoctirnated by the matrix and getting referall
     </div>
   </div>
   
-  
-  
-
-
-
-
     {% comment %} END our motto section {% endcomment %}
 
 
+    {% comment %} NEWS SECTION {% endcomment %}
+
+    <section id="news">
+
+        {% comment %} BUTTOM COMPONENT @utility class {% endcomment %}
+        <div class = "w-1/3 flex flex-center flex-col" style = "margin: 20px auto; "> 
+            <h1 class = "m-auto text-center text-6xl pb-3 font-bold">Recent <span class = "text-[#9D2235]" >News</span></h1>
+            <button class = "m-auto text-center p-5 pt-3 pb-3 flex  font-bold border border-4 border-[#9D2235] text-xl justify-center">View All News <span> <img class = "ml-3 w-[30px]" src = "{% static './images/rightarrow.svg' %}"> </span></button>
+        </div> 
+
+        <div class = "news--main flex w-full flex-row lg:flex-row sm:flex-col" > 
+
+
+           {% comment %} START NEWS LEFT {% endcomment %}
+            <div class="news--left ml-[5%] w-1/2 card  rounded-box grid flex-grow place-items-left flex-col" >
+
+                <div class = "w-[500px]" style = "background-color: #9D2235"> 
+
+                    <img class = "p-3 w-[500px]  " src = "{% static './images/tejaswinandanthony.png' %}"> 
+
+                </div>
+
+                <div class = "w-[80%] mt-3">
+                    <p class = "font-source-sans text-[#990000] text-xl font-bold uppercase  tracking-wide">Math, Science, Technology (MST)</p>
+                                            
+                    <h1 class = "font-noto-serif text-3xl tracking-wide mt-2">Tejaswin Gontla and Anthony Northinghan dating? Here’s the latest scoop. </h1>
+
+                    <p class = "tracking-wide text-lg mt-3">Dupont Manual High School is investigating a developing story where Anthony Northinghan stole Deeya’s ex-boyfriend, who had suddenly become a “gay pook”. </p>
+                                            
+                    <p class = "font-source-sans text-md uppercase text-[#990000] font-bold mt-2">September 16, 2024</p>
+                </div>
+
+            </div>
+            {% comment %} END NEWS LEFT {% endcomment %}
+
+
+            <div class="divider lg:divider-horizontal mx-10"> </div>
+            
+            {% comment %} START NEWS RIGHT {% endcomment %}
+            <div class="news--right w-[60%] card  rounded-box  flex-grow place-items-right mr-[3%]">
+
+                <div class = "news--right--element flex flex-row  " > 
+                        
+                    <div class="flex flex-col h-[300px]" style="background-color: #9D2235">
+                        <img class="p-2 w-[500px] h-[300px]" src="{% static './images/tejaswinandanthony.png' %}">
+                    </div>
+                    
+                        
+                    <div class = "flex flex-col w-3/4 ml-[20px]">
+                        <p class = "font-source-sans text-[#990000] text-md font-bold uppercase  tracking-wide">Math, Science, Technology (MST)</p>
+                    
+                        <h1 class = "font-noto-serif text-2xl tracking-wide mt-2">Tejaswin Gontla and Anthony Northinghan dating? Here’s the latest scoop. </h1>
+         
+                        <p class = "tracking-wide text-md mt-3">Dupont Manual High School is investigating a developing story where Anthony Northinghan stole Deeya’s ex-boyfriend, who had suddenly become a “gay pook”. </p>
+                             
+                        <p class = "font-source-sans text-sm uppercase text-[#990000] font-bold mt-2">September 16, 2024</p>
+                    </div>
+
+                </div>
+
+                <div class = "news--right--element flex flex-row mt-[50px]  " > 
+                        
+                    <div class="flex flex-col h-[300px]" style="background-color: #9D2235">
+                        <img class="p-2 w-[500px] h-[300px]" src="{% static './images/tejaswinandanthony.png' %}">
+                    </div>
+                    
+                        
+                    <div class = "flex flex-col w-3/4 ml-[20px]">
+                        <p class = "font-source-sans text-[#990000] text-md font-bold uppercase  tracking-wide">Math, Science, Technology (MST)</p>
+                    
+                        <h1 class = "font-noto-serif text-2xl tracking-wide mt-2">Tejaswin Gontla and Anthony Northinghan dating? Here’s the latest scoop. </h1>
+         
+                        <p class = "tracking-wide text-md mt-3">Dupont Manual High School is investigating a developing story where Anthony Northinghan stole Deeya’s ex-boyfriend, who had suddenly become a “gay pook”. </p>
+                             
+                        <p class = "font-source-sans text-sm uppercase text-[#990000] font-bold mt-2">September 16, 2024</p>
+                    </div>
+
+                </div>
+
+                
+
+                
+ 
+            </div>
+            {% comment %} END NEWS RIGHT {% endcomment %}
+
+
+                    
+        </div>
+
+    </section>
+
+    <div style = "height: 100vh;"> </div>
 
 </body>
 </html>
