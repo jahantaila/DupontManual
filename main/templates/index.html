@@ -246,16 +246,16 @@ ready for another year of being indoctirnated by the matrix and getting referall
 
 {% comment %} START our motto section {% endcomment %}
 
-<div class="container mx-auto py-10">
+<div class=" w-full py-10">
     {% comment %} OUR MOTTO HEADING {% endcomment %}
     
     
 
 
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-0 text-center text-white">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-0 w-full text-center text-white">
   
       <!-- Excellence Card -->
-      <div class="bg-cover bg-center p-6 bg-[url('{% static './images/excellence.png' %}')] ">
+      <div class="bg-cover  bg-center p-6 bg-[url('{% static './images/excellence.png' %}')] ">
         <div class="icon mb-4">
           <!-- Excellence icon -->
           <img class="w-22 h-22 mx-auto" src="{% static './images/excellence.svg' %}">
@@ -382,7 +382,55 @@ ready for another year of being indoctirnated by the matrix and getting referall
 
     </section>
 
-    <div style = "height: 100vh;"> </div>
+    <section id = "our-mission" class = "mt-20"> 
+
+        <div class = "w-1/2 flex flex-center flex-col" style = "margin: 20px auto; "> 
+            <h1 class = "m-auto text-center text-6xl pb-3 font-bold border-[#9D2235] border-b border-b-4">We Are <span class = "text-[#9D2235] font-bolder italic " >Manual Crimsons</span></h1>
+            <p class = " mt-5 text-[#202020] text-md leading-loose font-noto-serif text-center mb-5">A dynamic, interdisciplinary, diverse learning community that focuses on rigorous academic, technical, and artistic college-preparatory magnet programs</p>
+            <button class = "m-auto text-center p-5 pt-3 pb-3 flex  font-bold border border-4 border-[#9D2235] text-xl justify-center">Learn More About Us <span> <img class = "ml-3 w-[30px]" src = "{% static './images/rightarrow.svg' %}"> </span></button>
+        </div> 
+
+
+        <div class=" w-full py-10">
+            
+        
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-0 w-full  text-center text-white">
+          
+              
+          
+              <!-- Mission Card -->
+                <div style = "height: 50vh" class="bg-cover text-left p-6 bg-[url('{% static './images/ourmission.png' %}')] h-full flex items-center">
+
+                    <div class="w-3/4">
+                        <h2 class="text-5xl font-bold mb-2 flex items-center">
+                            Our Mission
+                            <span>
+                                <img class="ml-2" src="{% static './images/ourmission.svg' %}">
+                            </span>
+                        </h2>
+                        <p class="text-xl  font-noto-serif">This is the mission here. This is the mission here This is the mission here This is the mission here This is the mission here</p>
+                    </div>
+                </div>
+
+
+          
+              <!-- Vision Card -->
+              <div class="bg-cover bg-center p-6 bg-[url('{% static './images/tradition.png' %}')] border-l-4 border-[#9D2235]">
+                <div class="icon mb-4">
+                 
+                  <img class="w-22 h-22 mx-auto" src="{% static './images/tradition.svg' %}">
+                </div>
+                <h2 class="text-[44px] font-bold mb-2">Tradition</h2>
+                <p class="text-2xl text-[#A6A6A6] font-noto-serif">Honor The Past</p>
+              </div>
+          
+            </div>
+          </div>
+
+
+    </section>
+
+    <div style = "height: 100vh"> </div>
 
 </body>
 </html>
