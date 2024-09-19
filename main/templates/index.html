@@ -15,7 +15,18 @@
 <body>
 
    <section>
-    <h1 class=" mt-2 text-center font-bold text-black bg-white"   >Proficient In Reading: 100% | Distinguished in Reading: 50% </h1>
+
+    <div class="flex items-center justify-center  ">
+        <ul class="flex gap-20 text-center font-bold text-black bg-white w-max mx-auto mt-2" >
+            <li>Proficient In Reading: <span class="text-[#9D2235]">36%</span></li>
+            <li>Distinguished In Reading: <span class="text-[#9D2235]">47%</span></li>
+            <li>Proficient In Math: <span class="text-[#9D2235]">29%</span></li>
+            <li>Distinguished In Math: <span class="text-[#9D2235]">44%</span></li>
+            <li>View Our <span ><a class="text-[#9D2235] underline" href = "https://www.kyschoolreportcard.com/organization/53230?year=2023">KDE Report Card</a></span></li>
+        </ul>
+    </div>
+    
+
     <div class=" mt-3 navbar bg-[#9D2235]">
         <div class="navbar-start">
             <div class="dropdown">
@@ -384,14 +395,14 @@ ready for another year of being indoctirnated by the matrix and getting referall
 
     <section id = "our-mission" class = "mt-20"> 
 
-        <div class = "w-1/2 flex flex-center flex-col" style = "margin: 20px auto; "> 
+        <div  class = "w-1/2 flex flex-center flex-col" style = "margin: 20px auto; "> 
             <h1 class = "m-auto text-center text-6xl pb-3 font-bold border-[#9D2235] border-b border-b-4">We Are <span class = "text-[#9D2235] font-bolder italic " >Manual Crimsons</span></h1>
             <p class = " mt-5 text-[#202020] text-md leading-loose font-noto-serif text-center mb-5">A dynamic, interdisciplinary, diverse learning community that focuses on rigorous academic, technical, and artistic college-preparatory magnet programs</p>
             <button class = "m-auto text-center p-5 pt-3 pb-3 flex  font-bold border border-4 border-[#9D2235] text-xl justify-center">Learn More About Us <span> <img class = "ml-3 w-[30px]" src = "{% static './images/rightarrow.svg' %}"> </span></button>
         </div> 
 
 
-        <div class=" w-full py-10">
+        <div class=" w-full pt-10">
             
         
             <div class="grid grid-cols-1 md:grid-cols-2 gap-0 w-full  text-center text-white">
@@ -399,7 +410,7 @@ ready for another year of being indoctirnated by the matrix and getting referall
               
           
               <!-- Mission Card -->
-                <div style = "height: 50vh" class="bg-cover text-left p-6 bg-[url('{% static './images/ourmission.png' %}')] h-full flex items-center">
+                <div style = "height: 60vh" class="bg-cover text-left p-6 bg-[url('{% static './images/ourmission.png' %}')] h-full flex items-center">
 
                     <div class="w-3/4">
                         <h2 class="text-5xl font-bold mb-2 flex items-center">
@@ -408,28 +419,52 @@ ready for another year of being indoctirnated by the matrix and getting referall
                                 <img class="ml-2" src="{% static './images/ourmission.svg' %}">
                             </span>
                         </h2>
-                        <p class="text-xl  font-noto-serif">This is the mission here. This is the mission here This is the mission here This is the mission here This is the mission here</p>
+                        <p class="text-xl  font-noto-serif">Educate beyond the classroom walls through foreign/ domestic travel, project-driven research activities, community leadership, career pathways, performance and service.
+                        </p>
                     </div>
                 </div>
 
 
-          
+          {% comment %}  {% endcomment %}
               <!-- Vision Card -->
-              <div class="bg-cover bg-center p-6 bg-[url('{% static './images/tradition.png' %}')] border-l-4 border-[#9D2235]">
-                <div class="icon mb-4">
-                 
-                  <img class="w-22 h-22 mx-auto" src="{% static './images/tradition.svg' %}">
+              <div style = "height: 60vh" class="bg-cover text-left border-l-4 border-[#9D2235] p-6 bg-[url('{% static './images/ourvision.png' %}')] h-full flex items-center">
+
+                <div class="w-3/4">
+                    <h2 class="text-5xl font-bold mb-2 flex items-center">
+                        Our Vision
+                        <span>
+                            <img class="ml-2" src="{% static './images/ourvision.svg' %}">
+                        </span>
+                    </h2>
+                    <p class="text-xl  font-noto-serif">Empower students to become self-directed learners, critical thinkers, and responsible citizens who contribute to a global society.
+                    </p>
                 </div>
-                <h2 class="text-[44px] font-bold mb-2">Tradition</h2>
-                <p class="text-2xl text-[#A6A6A6] font-noto-serif">Honor The Past</p>
-              </div>
-          
             </div>
-          </div>
 
 
     </section>
 
+    <section id="diversity" style="background: linear-gradient(to right, #F9F9F9, #F0EFEF); max-height: 500px" >
+        <div class="w-full h-full flex flex-row">
+            <div class="w-1/2 flex items-center justify-center flex-col">
+                <div class="w-[60%] flex flex-col ">
+                    <h1 class="text-left text-5xl pb-3 font-bold border-[#9D2235] border-b border-b-4">
+                        Diversity & <span class="text-[#9D2235] font-bolder italic">Inclusion</span>
+                    </h1>
+                    <p class="mt-5 text-[#202020] text-md leading-loose font-noto-serif text-left mb-5">
+                        duPont Manual High School is proud to support our Black students, families, teachers, administrators, and staff. We believe that Black (BIPOC) lives do matter, and as such, we pledge to challenge inequities and improve outcomes for Black students in our school, city, state, and country; we prioritize safety and well-being of BIPOC.
+                    </p>
+                    <button class="text-left p-5 pt-3 pb-3 flex font-bold border border-4 border-[#9D2235] text-xl justify-center">
+                        More Diversity & Racial Info <span><img class="ml-3 w-[30px]" src="{% static './images/rightarrow.svg' %}"></span>
+                    </button>
+                </div>
+            </div>
+            <div class="w-1/2 flex justify-end">
+                <img src="{% static './images/diversity-img.png' %}" class="w-full h-[500px]">
+            </div>
+        </div>
+    </section>
+    
     <div style = "height: 100vh"> </div>
 
 </body>
