@@ -526,236 +526,115 @@ ready for another year of being indoctirnated by the matrix and getting referall
             </div>
         </div>
     </section>
+
+    <section id = "programs" class = "mt-20"> 
+
+        <div  class = "w-1/2 flex flex-center flex-col" style = "margin: 20px auto; "> 
+            <h1 class = "m-auto text-center text-6xl pb-3 font-bold border-[#9D2235] border-b border-b-4">Programs For <span class = "text-[#9D2235] font-bolder italic " >Every Student</span></h1>
+            <p class = " mt-5 text-[#202020] text-md leading-loose font-noto-serif text-center mb-5">Dupont Matrix High School offers a plethora of magnet programs. This is some dummy text here. This is some dummy text here. </p>
+            <button class = "m-auto text-center p-5 pt-3 pb-3 flex  font-bold border border-4 border-[#9D2235] text-xl justify-center">Learn More <span> <img class = "ml-3 w-[30px]" src = "{% static './images/rightarrow.svg' %}"> </span></button>
+        </div> 
+
+
+        <div class=" w-full pt-10" style = "100vh">
+
+            {% comment %} TOP SECTION {% endcomment %}
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-0 w-full  text-center text-red">
+
+                <div style = "height: 60vh" class="bg-cover text-left p-6 bg-[url('{% static './images/mst.png' %}')] flex items-center">
+                    <div class="w-3/4">
+                        <h2 class="text-3xl font-bold mb-2 flex items-center text-white">
+                            MATH, SCIENCE, TECHNOLOGY (MST)
+                            
+                        </h2>
+                        <p class="text-xl text-white font-noto-serif mt-5">This is dummy text hereThis is dummy text hereThis is dummy text hereThis is dummy text here
+                        </p>
+                    </div>
+                </div>
+
+                <div style = "height: 60vh" class="bg-cover  border-l-4 border-[#9D2235] text-left p-6 bg-[url('{% static './images/hsu.png' %}')] flex items-center">
+                    <div class="w-3/4">
+                        <h2 class="text-3xl font-bold mb-2 flex items-center text-white">
+                            HIGH SCHOOL UNIVERSITY (HSU)
+                            
+                        </h2>
+                        <p class="text-xl text-white font-noto-serif mt-5">This is dummy text hereThis is dummy text hereThis is dummy text hereThis is dummy text here
+                        </p>
+                    </div>
+                </div>
+
+            </div> 
+
+            {% comment %} BOTTOM SECTION {% endcomment %}
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-0 w-full  text-center text-red">
+
+                <div style = "height: 40vh" class="bg-cover text-left p-6 bg-[url('{% static './images/jnc.png' %}')] flex items-center">
+
+                    <div class="w-5/6">
+                        <h2 class="text-2xl font-bold mb-2 flex items-center text-white">
+                            JOURNALISM & COMMUNICATION (J&C)
+                           
+                        </h2>
+                        <p class="text-lg text-white  font-noto-serif">This is dummy text hereThis is dummy text hereThis is dummy text hereThis is dummy text here
+                        </p>
+                    </div>
+
+
+                </div>
+
+
+               
+
+                <div style="height: 40vh" class="bg-cover text-left p-6 border-[#9D2235] border-t-4 border-r-4 border-l-4 bg-[url('{% static './images/ypas.png' %}')] flex items-center">
+
+                    <div class="w-5/6">
+                        <h2 class="text-2xl font-bold mb-2 flex items-center text-white b">
+                            YOUTH PERFORMING ARTS SCHOOL (YPAS)
+                           
+                        </h2>
+                        <p class="text-lg text-white  font-noto-serif">This is dummy text hereThis is dummy text hereThis is dummy text hereThis is dummy text here
+                        </p>
+                    </div>
+
+
+                </div>
+
+
+                <div style = "height: 40vh" class="bg-cover text-left p-6 bg-[url('{% static './images/va.png' %}')] flex items-center">
+
+                    <div class="w-5/6">
+                        <h2 class="text-2xl font-bold mb-2 flex items-center text-white">
+                            VISUAL ART (VA)
+                           
+                        </h2>
+                        <p class="text-lg text-white  font-noto-serif">This is dummy text hereThis is dummy text hereThis is dummy text hereThis is dummy text here
+                        </p>
+                    </div>
+
+
+                </div>
+
+                
+
+
+                </div>
+
+            </div> 
+
+
+
+
+
+        </div>
+
+
+
+    </section>
     
     <div style = "height: 100vh"> </div>
 
-    <section>
-        <section>
-            {% load static %}
-            <section class="p-8">
-                <!-- Heading Section -->
-                <div class="text-center">
-                    <h2 class="text-4xl font-bold">DON'T JUST TAKE OUR <span class="text-[#9D2235]">WORD</span> FOR IT.</h2>
-                    <p class="mt-4 text-lg text-gray-500">Here direct, transparent reviews from our very own crimsons and alumni!
-                    </p>
-                </div>
-            
-                <!-- Reviews Grid -->
-                <div class="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                    <!-- Review Card 1 -->
-                    <div class="bg-white shadow-lg rounded-lg">
-                        <div class="relative">
-                            <video class="w-full h-56 object-cover rounded-t-lg" controls>
-                                <source src="{% static 'images/IMG_0157 (1).MOV' %}" type="video/quicktime">
-                                Your browser does not support the video tag.
-                            </video>
-                        </div>
-                        <div class="bg-[#9D2235] p-4 text-white">
-                            <p class="font-bold">MANU ANIL, CLASS OF 2024.</p>
-                            <p class="mt-2">“I truly loved my experience here at Dupont Manual High School. This was the best thing
-                                that could have ever happened to me in my career ... <a href="#" class="underline text-white">Read
-                                    More</a>”</p>
-                            <div class="flex justify-between items-center mt-4">
-                                <div class="flex items-center">
-                                    <span class="mr-2">👍</span>
-                                    <span>4</span>
-                                </div>
-                                <div>
-                                    <span class="text-white">🔗</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-            
-                        <!-- Review Card 2 -->
-                        <div class="bg-white shadow-lg rounded-lg">
-                            <div class="relative">
-                                <video class="w-full h-56 object-cover rounded-t-lg" controls>
-                                    <source src="{% static 'images/IMG_0157 (1).MOV' %}" type="video/quicktime">
-                                    Your browser does not support the video tag.
-                                </video>
-                            </div>
-                            <div class="bg-[#9D2235] p-4 text-white">
-                                <p class="font-bold">MANU ANIL, CLASS OF 2024.</p>
-                                <p class="mt-2">“I truly loved my experience here at Dupont Manual High School. This was the best thing that
-                                    could have ever happened to me in my career ... <a href="#" class="underline text-white">Read More</a>”</p>
-                                <div class="flex justify-between items-center mt-4">
-                                    <div class="flex items-center">
-                                        <span class="mr-2">👍</span>
-                                        <span>4</span>
-                                    </div>
-                                    <div>
-                                        <span class="text-white">🔗</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-            
-                        <!-- Review Card 3 -->
-                        <div class="bg-white shadow-lg rounded-lg">
-                            <div class="relative">
-                                <video class="w-full h-56 object-cover rounded-t-lg" controls>
-                                    <source src="{% static 'images/IMG_0157 (1).MOV' %}" type="video/quicktime">
-                                    Your browser does not support the video tag.
-                                </video>
-                            </div>
-                            <div class="bg-[#9D2235] p-4 text-white">
-                                <p class="font-bold">MANU ANIL, CLASS OF 2024.</p>
-                                <p class="mt-2">“I truly loved my experience here at Dupont Manual High School. This was the best thing that
-                                    could have ever happened to me in my career ... <a href="#" class="underline text-white">Read More</a>”</p>
-                                <div class="flex justify-between items-center mt-4">
-                                    <div class="flex items-center">
-                                        <span class="mr-2">👍</span>
-                                        <span>4</span>
-                                    </div>
-                                    <div>
-                                        <span class="text-white">🔗</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-            
-                        <!-- Review Card 4 -->
-                        <div class="bg-white shadow-lg rounded-lg">
-                            <div class="relative">
-                                <video class="w-full h-56 object-cover rounded-t-lg" controls>
-                                    <source src="{% static 'images/IMG_0157 (1).MOV' %}" type="video/quicktime">
-                                    Your browser does not support the video tag.
-                                </video>
-                            </div>
-                            <div class="bg-[#9D2235] p-4 text-white">
-                                <p class="font-bold">MANU ANIL, CLASS OF 2024.</p>
-                                <p class="mt-2">“I truly loved my experience here at Dupont Manual High School. This was the best thing that
-                                    could have ever happened to me in my career ... <a href="#" class="underline text-white">Read More</a>”</p>
-                                <div class="flex justify-between items-center mt-4">
-                                    <div class="flex items-center">
-                                        <span class="mr-2">👍</span>
-                                        <span>4</span>
-                                    </div>
-                                    <div>
-                                        <span class="text-white">🔗</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-            
-                        <!-- Review Card 1 -->
-                        <div class="bg-white shadow-lg rounded-lg">
-                            <div class="relative">
-                                <video class="w-full h-56 object-cover rounded-t-lg" controls>
-                                    <source src="{% static 'images/IMG_0157 (1).MOV' %}" type="video/quicktime">
-                                    Your browser does not support the video tag.
-                                </video>
-                            </div>
-                            <div class="bg-[#9D2235] p-4 text-white">
-                                <p class="font-bold">MANU ANIL, CLASS OF 2024.</p>
-                                <p class="mt-2">“I truly loved my experience here at Dupont Manual High School. This was the best thing that
-                                    could have ever happened to me in my career ... <a href="#" class="underline text-white">Read More</a>”</p>
-                                <div class="flex justify-between items-center mt-4">
-                                    <div class="flex items-center">
-                                        <span class="mr-2">👍</span>
-                                        <span>4</span>
-                                    </div>
-                                    <div>
-                                        <span class="text-white">🔗</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-            
-                        <!-- Review Card 6 -->
-                        <div class="bg-white shadow-lg rounded-lg">
-                            <div class="relative">
-                                <video class="w-full h-56 object-cover rounded-t-lg" controls>
-                                    <source src="{% static 'images/IMG_0157 (1).MOV' %}" type="video/quicktime">
-                                    Your browser does not support the video tag.
-                                </video>
-                            </div>
-                            <div class="bg-[#9D2235] p-4 text-white">
-                                <p class="font-bold">MANU ANIL, CLASS OF 2024.</p>
-                                <p class="mt-2">“I truly loved my experience here at Dupont Manual High School. This was the best thing that
-                                    could have ever happened to me in my career ... <a href="#" class="underline text-white">Read More</a>”</p>
-                                <div class="flex justify-between items-center mt-4">
-                                    <div class="flex items-center">
-                                        <span class="mr-2">👍</span>
-                                        <span>4</span>
-                                    </div>
-                                    <div>
-                                        <span class="text-white">🔗</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                </div>
-            
-                <!-- Load More Button -->
-                <div class="flex justify-center mt-8">
-                    <button class="btn btn-outline btn-wide">LOAD MORE</button>
-                </div>
-            </section>
-        </section>
-    </section>
-    <section class="p-8">
-        <!-- Heading Section -->
-        <div class="text-center mb-8">
-            <h2 class="text-4xl font-bold">OUR <span class="text-[#9D2235]">LEADERSHIP.</span></h2>
-            <p class="mt-4 text-lg text-gray-500">Here are the great leaders and role models that will indoctrinate your
-                students if they apply to this matrix ahh highschool.</p>
-        </div>
     
-        <!-- Carousel Container -->
-        <div class="relative flex items-center justify-center">
-            <!-- Left Button -->
-            <button id="prevBtn" class="absolute left-0 z-10 p-3 text-white bg-[#9D2235] rounded-full">
-                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
-                </svg>
-            </button>
-    
-            <!-- Cards Container -->
-            <div id="carousel" class="flex overflow-hidden w-full max-w-4xl">
-                <!-- Card 1 -->
-                <div class="flex-none w-full px-4 transition-transform transform">
-                    <div class="bg-white p-4 rounded-lg shadow-md text-center">
-                        <img src="{% static 'images/principal.jpeg' %}" alt="Dr. Micheal Newman" class="mx-auto rounded-lg">
-                        <h3 class="mt-4 text-xl font-bold">Dr. Micheal Newman</h3>
-                        <a href="#" class="block mt-2 text-[#9D2235] underline">Learn More</a>
-                        <p class="mt-1 font-semibold">Principal</p>
-                    </div>
-                </div>
-    
-                <!-- Card 2 -->
-                <div class="flex-none w-full px-4 transition-transform transform">
-                    <div class="bg-white p-4 rounded-lg shadow-md text-center">
-                        <img src="{% static 'images/assistant_principal.jpg' %}" alt="Mrs. Boggs"
-                            class="mx-auto rounded-lg">
-                        <h3 class="mt-4 text-xl font-bold">Mrs. Boggs</h3>
-                        <a href="#" class="block mt-2 text-[#9D2235] underline">Learn More</a>
-                        <p class="mt-1 font-semibold">Assistant Principal</p>
-                    </div>
-                </div>
-    
-                <!-- Card 3 -->
-                <div class="flex-none w-full px-4 transition-transform transform">
-                    <div class="bg-white p-4 rounded-lg shadow-md text-center">
-                        <img src="{% static 'images/president.webp' %}" alt="Yash Pathak" class="mx-auto rounded-lg">
-                        <h3 class="mt-4 text-xl font-bold">Yash Pathak</h3>
-                        <a href="#" class="block mt-2 text-[#9D2235] underline">Learn More</a>
-                        <p class="mt-1 font-semibold">President</p>
-                    </div>
-                </div>
-            </div>
-    
-            <!-- Right Button -->
-            <button id="nextBtn" class="absolute right-0 z-10 p-3 text-white bg-[#9D2235] rounded-full">
-                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
-                </svg>
-            </button>
-        </div>
-    </section>
-
 </body>
 </html>
