@@ -629,11 +629,95 @@ ready for another year of being indoctirnated by the matrix and getting referall
 
         </div>
 
-
-
     </section>
+
+
+    <section class = "" style = "background-color: #9D2235; "> 
+
+       {% comment %} TOP SECTION {% endcomment %}
+        <div class="w-full flex justify-between p-20">
+            <div class="w-2/6 text-left  p-4 rounded flex flex-col">
+                <img src = "{% static './images/manuallogo.png' %}" style = "width: 100px; height: 100px"> 
+                <h1 class = "text-5xl mt-3 font-bold mb-2  text-white  ">About Our School</h1> 
+
+                <div class="mt-3 rounded-md w-1/2">
+                    <a href=""
+                        class="flex items-center justify-center w-full px-8 py-3  font-3 xl leading-6 text-[#EEEEEE] bg-[#9D2235] border border-[#EEEEEE] rounded-full  md:py-4 md:text-lg md:px-10">
+                        Learn More
+                    </a>
+                </div>
+            </div>
+
+            <div class="w-3/6   p-4 rounded flex flex-col text-left">
+                <p class = "text-[#D8E3FB] text-2xl">We are the best high school in Kentucky. This is some text here.  This is some text here.  This is some text here.  This is some text here.  This is some text here.  This is some text here.  This is some text here.  </p>
+                <p class = "font-bold text-xl text-white mt-10">Founded in 1889. This is some text about our history. This is some text about our history. This is some text about our history. This is some text about our history. This is some text about our history. This is some text about our history. This is some text about our history. </p>
+
+                <p class = "flex flex-row text-lg mt-5 items-center text-white">Read More <span class = "ml-2"><img class = "w-[25px]" src = "{% static './images/arrowright.svg' %}"> </span></p>
+            </div>
+        </div>
+
+        {% comment %} BOTTOM SECTION {% endcomment %}
+
+        <div class="flex flex-col items-center">
+            <figure>
+                <img src="{% static './images/topmatrix.png' %}">
+            </figure>
+        
+           
+            <div class="relative w-full">
+                <img src="{% static './images/bottommatrix.png' %}" class="w-full">
+        
+                <div class="absolute inset-0 bg-black/50 flex flex-col justify-center items-center">
+                    <img class = "text-white w-40 h-40" src = "{% static './images/playbutton2.svg' %}">
+
+                    {% comment %} text section {% endcomment %}
+                    <div class = "w-1/2 text-center"> 
+                    <p class="text-white text-5xl font-bold">Video Tour Of Manual</p>
+                    <p class = "mt-5 text-xl font-noto-serif text-white font-bold ">Take a tour of Dupont Manual and learn why we are the best high school in the entire state of Kentucky. This here is dummy text.</p>
+
+                    </div> 
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer bg-[#9D2235] text-base-content p-10">
+        <aside>
+          <img style = "width: 100px; height: 100px" src = "{% static 'images/manuallogo.png' %}">
+          <p class = "font-bold text-lg text-white">
+            DuPont Manual High School
+            <br />
+            120 W Lee St, Louisville, KY 40208
+          </p>
+        </aside>
+        <nav>
+          <h6 class="footer-title text-white opacity-100 text-xl tracking-wider" >About</h6>
+          <a class="link link-hover text-white text-lg">Mission & Vision</a>
+          <a class="link link-hover text-white text-lg">School History</a>
+          <a class="link link-hover text-white text-lg">School Policies</a>
+          <a class="link link-hover text-white text-lg">Athletics</a>
+        </nav>
+        <nav>
+            <h6 class="footer-title text-white opacity-100 text-xl tracking-wider" >Admissions</h6>
+            <a class="link link-hover text-white text-lg">Admissions Process</a>
+          <a class="link link-hover text-white text-lg text-white text-lg">Admissions Requirements</a>
+          <a class="link link-hover link link-hover text-white text-lg">Open House</a>
+          <a class="link link-hover text-white text-lg">Events</a>
+        </nav>
+        <nav>
+            <h6 class="footer-title text-white opacity-100 text-xl tracking-wider" >Student Resources</h6>
+            <a class="link link-hover text-white text-lg">General Info</a>
+          <a class="link link-hover link link-hover text-white text-lg">Infinite Campus</a>
+          <a class="link link-hover link link-hover text-white text-lg">School Info</a>
+          <a class="link link-hover link link-hover text-white text-lg">Manual Staff</a>
+
+        </nav>
+      </footer>
+
+
     
-    <div style = "height: 100vh"> </div>
+   
 
     
 </body>
