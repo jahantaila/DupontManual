@@ -22,7 +22,7 @@
    <section >
 
     <div class="flex items-center justify-center flex-wrap ">
-        <ul class="flex gap-20 text-center font-bold text-black bg-white w-max mx-auto mt-2" >
+        <ul class="flex md:gap-20 sm:gap-10 text-center font-bold text-black bg-white w-max mx-auto mt-2" >
             <li class = "md:text-sm md:ml-10  hover:scale-125 transition ease-in-out delay-100 cursor-pointer w-1/5	">Proficient In Reading: <span class="text-[#9D2235]">36%</span></li>
             <li class = " md:text-sm hover:scale-125 transition ease-in-out delay-100 cursor-pointer	w-1/5">Distinguished In Reading: <span class="text-[#9D2235]">47%</span></li>
             <li class = "md:text-sm hover:scale-125 transition ease-in-out delay-100 cursor-pointer	w-1/5">Proficient In Math: <span class="text-[#9D2235]">29%</span></li>
@@ -151,8 +151,8 @@
    </section>
   <div class="bg-white relative flex flex-col items-center max-w-screen-xl px-4 mx-auto md:flex-col lg:flex-row sm:px-6 p-8">
     <div class="flex items-center py-5 md:w-full lg:w-1/2  md:pt-10 md:pr-10">
-        <div class="text-left md:text-center lg:text-left">
-            <p class="text-[#9D2235] max-w-md mx-auto mt-3 text-base sm:text-lg md:mt-5 md:text-xl md:max-w-3xl md:text-center lg:text-left">
+        <div class="text-left sm:text-center lg:text-left">
+            <p class="text-[#9D2235] max-w-md mx-auto mt-3 text-base sm:text-lg md:mt-5 md:text-xl md:max-w-3xl sm:text-center lg:text-left">
                  Dupont Manual High School
             </p>
             <h2
@@ -165,7 +165,7 @@
                  Welcome to duPont Matrix Highschool! Get
 ready for another year of being indoctirnated by the matrix and getting referalls!
             </p>
-            <div class="mt-5 sm:flex md:mt-8 md:justify-center lg:justify-start">
+            <div class="mt-5 sm:flex md:mt-8 sm:justify-center lg:justify-start">
                 <div class="rounded-md hover:scale-125 transition ease-in-out delay-100  "><a href=""
                         class=" flex items-center justify-center w-full px-8 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-[#9D2235] hover:font-bold  border border-transparent rounded-full focus:outline-none focus:shadow-outline-blue md:py-4 md:text-lg md:px-10">
                         About Us
@@ -179,9 +179,9 @@ ready for another year of being indoctirnated by the matrix and getting referall
             </div>
         </div>
     </div>
-    <div class="flex items-center  md:w-full lg:w-1/2  lg:py-5 lg:pt-10 lg:pl-10">
-        <div class="relative md:flex md:justify-center w-full lg:p-3 rounded  md:p-8">
-    <div class="relative lg:w-full md:w-[80%] h-[500px] bg-cover bg-center rounded-xl" style="background-image: url('{% static "./images/graduatingClass.png" %}');">
+    <div class="flex items-center  sm:w-full lg:w-1/2  lg:py-5 lg:pt-10 lg:pl-10">
+        <div class="relative sm:flex sm:justify-center w-full lg:p-3 rounded  md:p-8">
+    <div class="relative lg:w-full sm:w-[60%] sm:h-[400px] md:w-[80%] h-[500px] bg-cover bg-center rounded-xl" style="background-image: url('{% static "./images/graduatingClass.png" %}');">
         <!-- Red Box and Text Content -->
         <div class="absolute bottom-0 left-0 bg-[#9D2235] text-white p-6 rounded-tr-lg w-64">
             <p class="text-lg mb-2">May 8th</p>
@@ -210,9 +210,9 @@ ready for another year of being indoctirnated by the matrix and getting referall
 
 {% comment %} Contact information section {% endcomment %}
 
-<div class=" lg:border lg:border-[#D0D0DB] lg:shadow-xl rounded-box flex xl:w-5/6 lg:w-full lg:flex-row mx-auto md:flex-col md:w-4/6" style="box-sizing: border-box; ">
+<div class=" lg:border lg:border-[#D0D0DB] lg:shadow-xl rounded-box flex xl:w-5/6 lg:w-full lg:flex-row mx-auto sm:flex-col sm:w-4/6" style="box-sizing: border-box; ">
     <!-- First Section: Call Us -->
-    <div class="md:border md:border-[#D0D0DB] lg:border-none md:w-full lg:w-1/3 p-5 flex flex-row justify-start card place-items-center box-border">
+    <div class="sm:border sm:border-[#D0D0DB] lg:border-none sm:w-full lg:w-1/3 p-5 flex flex-row justify-start card place-items-center box-border">
         <img class="max-w-[80px]" src="{% static './images/phone.svg' %}" alt="">
         <div class="flex flex-col ml-4 box-border">
             <p class="text-3xl font-bold text-[#090717] mt-2">Call us</p>
@@ -228,7 +228,7 @@ ready for another year of being indoctirnated by the matrix and getting referall
     <div class="border-l-2 border-[#D0D0DB]"></div>
 
     <!-- Second Section: Email Us -->
-    <div class="md:border md:border-[#D0D0DB] md:mt-10 lg:border-none lg:mt-0 md:w-full lg:w-1/3 p-5 flex flex-row justify-start card place-items-center box-border">
+    <div class="sm:border sm:border-[#D0D0DB] sm:w-full sm:mt-10 lg:border-none lg:mt-0 md:w-full lg:w-1/3 p-5 flex flex-row justify-start card place-items-center box-border">
         <img class="max-w-[80px]" src="{% static './images/email.svg' %}" alt="">
         <div class="flex flex-col ml-4 box-border">
             <p class="text-3xl font-bold text-[#090717] mt-2">Email Us</p>
@@ -245,7 +245,7 @@ ready for another year of being indoctirnated by the matrix and getting referall
 
 
     <!-- Third Section: Visit Us -->
-    <div class="md:border md:border-[#D0D0DB] md:mt-10 lg:border-none lg:mt-0 md:w-full lg:w-1/3 p-5 flex flex-row justify-start card place-items-center box-border">
+    <div class="sm:border sm:border-[#D0D0DB] sm:w-full sm:mt-10 lg:border-none lg:mt-0 md:w-full lg:w-1/3 p-5 flex flex-row justify-start card place-items-center box-border">
         <img class="max-w-[80px]" src="{% static './images/location.svg' %}" alt="">
         <div class="flex flex-col ml-4 box-border">
             <p class="text-3xl font-bold text-[#090717] mt-2">Visit Us</p>
@@ -281,7 +281,7 @@ ready for another year of being indoctirnated by the matrix and getting referall
       </div>
   
       <!-- Diversity Card -->
-      <div class="bg-cover bg-center p-6 bg-[url('{% static './images/diversity.png' %}')] border-l-4 border-[#9D2235]">
+      <div class="bg-cover bg-center p-6 bg-[url('{% static './images/diversity.png' %}')] md:border-l-4 md:border-[#9D2235]">
         <div class="icon mb-4">
           <!-- Diversity icon -->
           <img class="w-22 h-22 mx-auto" src="{% static './images/diversity.svg' %}">
@@ -291,7 +291,7 @@ ready for another year of being indoctirnated by the matrix and getting referall
       </div>
   
       <!-- Tradition Card -->
-      <div class="bg-cover bg-center p-6 bg-[url('{% static './images/tradition.png' %}')] border-l-4 border-[#9D2235]">
+      <div class="bg-cover bg-center p-6 bg-[url('{% static './images/tradition.png' %}')] md:border-l-4 md:border-[#9D2235]">
         <div class="icon mb-4">
           <!-- Tradition icon -->
           <img class="w-22 h-22 mx-auto" src="{% static './images/tradition.svg' %}">
@@ -372,7 +372,7 @@ ready for another year of being indoctirnated by the matrix and getting referall
 
     <section id="news">
 
-        {% comment %} BUTTOM COMPONENT @utility class {% endcomment %}
+        {% comment %} BUTTON COMPONENT @utility class {% endcomment %}
         <div class = "lg:w-1/3 md:w-1/2 flex flex-center flex-col" style = "margin: 20px auto; "> 
             <h1 class = "m-auto text-center text-6xl pb-3 font-bold">Recent <span class = "text-[#9D2235]" >News</span></h1>
             <button class = "m-auto text-center p-5 pt-3 pb-3 flex  font-bold border border-4 border-[#9D2235] text-xl justify-center">View All News <span> <img class = "ml-3 w-[30px]" src = "{% static './images/rightarrow.svg' %}"> </span></button>
@@ -383,22 +383,22 @@ ready for another year of being indoctirnated by the matrix and getting referall
 
 
            {% comment %} START NEWS LEFT {% endcomment %}
-            <div class="news--left lg:ml-[5%] xl:w-1/2 lg:w-5/6 md:flex md:flex-col md:items-center card  rounded-box grid  place-items-left xl:flex xl:flex-col lg:flex lg:mt-10 lg:flex-row" >
+            <div class="news--left lg:ml-[5%] xl:w-1/2 lg:w-5/6 sm:flex sm:flex-col sm:items-center card  rounded-box grid  place-items-left xl:flex xl:flex-col lg:flex lg:mt-10 lg:flex-row" >
 
-                <div class = "xl:w-[500px] md:w-[500px]  lg:w-[400px] lg:h-[300px] xl:h-[370px]" style = "background-color: #9D2235"> 
+                <div class = "xl:w-[500px] sm:w-[500px]  lg:w-[400px] lg:h-[300px] xl:h-[370px]" style = "background-color: #9D2235"> 
 
                     <img class = "p-3 xl:w-[500px] lg:w-[400px] " src = "{% static './images/tejaswinandanthony.png' %}"> 
 
                 </div>
 
-                <div class = "xl:w-[80%] lg:w-1/2 md:w-5/6  mt-3 xl:ml-0 lg:ml-10">
-                    <p class = "font-source-sans text-[#990000] lg:text-xl md:text-lg font-bold uppercase  tracking-wide md:text-center lg:text-start">Math, Science, Technology (MST)</p>
+                <div class = "xl:w-[80%] lg:w-1/2 sm:w-5/6  mt-3 xl:ml-0 lg:ml-10">
+                    <p class = "font-source-sans text-[#990000] lg:text-xl sm:text-lg font-bold uppercase  tracking-wide sm:text-center lg:text-start">Math, Science, Technology (MST)</p>
                                             
-                    <h1 class = "font-noto-serif lg:text-3xl md:text-2xl tracking-wide mt-2 md:text-center lg:text-start">Tejaswin Gontla and Anthony Northinghan dating? Here’s the latest scoop. </h1>
+                    <h1 class = "font-noto-serif lg:text-3xl sm:text-2xl tracking-wide mt-2 sm:text-center lg:text-start">Tejaswin Gontla and Anthony Northinghan dating? Here’s the latest scoop. </h1>
 
-                    <p class = "tracking-wide text-lg mt-3 md:text-center lg:text-start">Dupont Manual High School is investigating a developing story where Anthony Northinghan stole Deeya’s ex-boyfriend, who had suddenly become a “gay pook”. </p>
+                    <p class = "tracking-wide text-lg mt-3 sm:text-center lg:text-start">Dupont Manual High School is investigating a developing story where Anthony Northinghan stole Deeya’s ex-boyfriend, who had suddenly become a “gay pook”. </p>
                                             
-                    <p class = "font-source-sans text-md uppercase text-[#990000] font-bold mt-2 md:text-center lg:text-start">September 16, 2024</p>
+                    <p class = "font-source-sans text-md uppercase text-[#990000] text-center  font-bold mt-2 md:text-center lg:text-start">September 16, 2024</p>
                 </div>
 
             </div>
@@ -408,16 +408,16 @@ ready for another year of being indoctirnated by the matrix and getting referall
             <div class="divider lg:divider-horizontal mx-30"> </div>
             
             {% comment %} START NEWS RIGHT {% endcomment %}
-            <div class="news--right md:w-5/6 xl:w-[60%] md:m-auto lg:w-5/6 card  rounded-box  flex-grow place-items-right lg:mr-0 xl:mr-[3%]">
+            <div class="news--right sm:w-5/6 xl:w-[60%] sm:m-auto lg:w-5/6 card  rounded-box  flex-grow place-items-right lg:mr-0 xl:mr-[3%]">
 
                 <div class = "news--right--element xl:ml-0 lg:ml-[5%]  flex flex-row xl:items-start lg:items-center " > 
                         
-                    <div class="flex flex-col  md:h-[200px] lg:h-[300px]" style="background-color: #9D2235">
-                        <img class="p-2 xl:w-[500px] md:w-[500px] lg:w-[400px] md:h-[200px] lg:h-[300px]" src="{% static './images/tejaswinandanthony.png' %}">
+                    <div class="flex flex-col  sm:h-[200px] lg:h-[300px]" style="background-color: #9D2235">
+                        <img class="p-2 xl:w-[500px] sm:w-[500px] lg:w-[400px] sm:h-[200px] lg:h-[300px]" src="{% static './images/tejaswinandanthony.png' %}">
                     </div>
                     
                         
-                    <div class = "flex flex-col md:ml-5 xl:w-3/4 lg:w-1/2 xl:ml-[20px] lg:ml-10">
+                    <div class = "flex flex-col sm:ml-5 xl:w-3/4 lg:w-1/2 xl:ml-[20px] lg:ml-10">
                         <p class = "font-source-sans text-[#990000] xl:text-md lg:text-xl font-bold uppercase  tracking-wide">Math, Science, Technology (MST)</p>
                     
                         <h1 class = "font-noto-serif xl:text-2xl lg:text-3xl tracking-wide mt-2">Tejaswin Gontla and Anthony Northinghan dating? Here’s the latest scoop. </h1>
@@ -431,14 +431,14 @@ ready for another year of being indoctirnated by the matrix and getting referall
 
 
 
-                <div class = "news--right--element md:mt-10 xl:ml-0 lg:ml-[5%]  flex flex-row xl:items-start lg:items-center " > 
+                <div class = "news--right--element sm:mt-10 xl:ml-0 lg:ml-[5%]  flex flex-row xl:items-start lg:items-center " > 
                         
-                    <div class="flex flex-col  md:h-[200px] lg:h-[300px]" style="background-color: #9D2235">
-                        <img class="p-2 xl:w-[500px] md:w-[500px] lg:w-[400px] md:h-[200px] lg:h-[300px]" src="{% static './images/tejaswinandanthony.png' %}">
+                    <div class="flex flex-col  sm:h-[200px] lg:h-[300px]" style="background-color: #9D2235">
+                        <img class="p-2 xl:w-[500px] sm:w-[500px] lg:w-[400px] sm:h-[200px] lg:h-[300px]" src="{% static './images/tejaswinandanthony.png' %}">
                     </div>
                     
                         
-                    <div class = "flex flex-col md:ml-5 xl:w-3/4 lg:w-1/2 xl:ml-[20px] lg:ml-10">
+                    <div class = "flex flex-col sm:ml-5 xl:w-3/4 lg:w-1/2 xl:ml-[20px] lg:ml-10">
                         <p class = "font-source-sans text-[#990000] xl:text-md lg:text-xl font-bold uppercase  tracking-wide">Math, Science, Technology (MST)</p>
                     
                         <h1 class = "font-noto-serif xl:text-2xl lg:text-3xl tracking-wide mt-2">Tejaswin Gontla and Anthony Northinghan dating? Here’s the latest scoop. </h1>
@@ -466,7 +466,7 @@ ready for another year of being indoctirnated by the matrix and getting referall
 
     <section id = "our-mission" class = "mt-20"> 
 
-        <div  class = "lg:w-1/2 md:w-full flex flex-center flex-col" style = "margin: 20px auto; "> 
+        <div  class = "lg:w-1/2 sm:w-full sm:p-5 md:p-0 flex flex-center flex-col" style = "margin: 20px auto; "> 
             <h1 class = "m-auto text-center text-6xl pb-3 font-bold border-[#9D2235] border-b border-b-4">We Are <span class = "text-[#9D2235] font-bolder italic " >Manual Crimsons</span></h1>
             <p class = " mt-5 text-[#202020] text-md leading-loose font-noto-serif text-center mb-5">A dynamic, interdisciplinary, diverse learning community that focuses on rigorous academic, technical, and artistic college-preparatory magnet programs</p>
             <button class = "m-auto text-center p-5 pt-3 pb-3 flex  font-bold border border-4 border-[#9D2235] text-xl justify-center">Learn More About Us <span> <img class = "ml-3 w-[30px]" src = "{% static './images/rightarrow.svg' %}"> </span></button>
@@ -483,14 +483,14 @@ ready for another year of being indoctirnated by the matrix and getting referall
               <!-- Mission Card -->
                 <div style = "height: 60vh" class="bg-cover text-left p-6 bg-[url('{% static './images/ourmission.png' %}')] h-full flex items-center">
 
-                    <div class="lg:w-3/4 md:w-full">
-                        <h2 class="lg:text-5xl md:text-4xl font-bold mb-2 flex items-center">
+                    <div class="lg:w-3/4 sm:w-full">
+                        <h2 class="lg:text-5xl sm:text-4xl font-bold mb-2 flex items-center">
                             Our Mission
                             <span>
                                 <img class="ml-2" src="{% static './images/ourmission.svg' %}">
                             </span>
                         </h2>
-                        <p class="lg:text-xl md:text-lg  font-noto-serif">Educate beyond the classroom walls through foreign/ domestic travel, project-driven research activities, community leadership, career pathways, performance and service.
+                        <p class="lg:text-xl sm:text-lg  font-noto-serif">Educate beyond the classroom walls through foreign/ domestic travel, project-driven research activities, community leadership, career pathways, performance and service.
                         </p>
                     </div>
                 </div>
@@ -498,16 +498,16 @@ ready for another year of being indoctirnated by the matrix and getting referall
 
           {% comment %}  {% endcomment %}
               <!-- Vision Card -->
-              <div style = "height: 60vh" class="bg-cover text-left border-l-4 border-[#9D2235] p-6 bg-[url('{% static './images/ourvision.png' %}')] h-full flex items-center">
+              <div style = "height: 60vh" class="bg-cover text-left sm:border-none border-l-4 border-[#9D2235] p-6 bg-[url('{% static './images/ourvision.png' %}')] h-full flex items-center">
 
-                <div class="lg:w-3/4 md:w-full">
-                    <h2 class="lg:text-5xl md:text-4xl font-bold mb-2 flex items-center">
+                <div class="lg:w-3/4 sm:w-full">
+                    <h2 class="lg:text-5xl sm:text-4xl font-bold mb-2 flex items-center">
                         Our Vision
                         <span>
                             <img class="ml-2" src="{% static './images/ourvision.svg' %}">
                         </span>
                     </h2>
-                    <p class="lg:text-xl md:text-lg   font-noto-serif">Empower students to become self-directed learners, critical thinkers, and responsible citizens who contribute to a global society.
+                    <p class="lg:text-xl sm:text-lg   font-noto-serif">Empower students to become self-directed learners, critical thinkers, and responsible citizens who contribute to a global society.
                     </p>
                 </div>
             </div>
@@ -515,60 +515,60 @@ ready for another year of being indoctirnated by the matrix and getting referall
 
     </section>
 
-    <section id="diversity" style="background: linear-gradient(to right, #F9F9F9, #F0EFEF); max-height: 500px" >
-        <div class="w-full h-full flex flex-row">
-            <div class="w-1/2 flex items-center justify-center flex-col md:p-5 lg:p-0">
-                <div class="xl:w-[70%] lg:w-[85%] flex flex-col ">
-                    <h1 class="text-left lg:text-5xl md:text-4xl pb-3 font-bold border-[#9D2235] border-b border-b-4">
+    <section id="diversity" class = "md:max-h-[500px]" style="background: linear-gradient(to right, #F9F9F9, #F0EFEF); " >
+        <div class="w-full md:h-full flex flex-col md:flex-row">
+            <div class="md:w-1/2 w-full flex items-center justify-center flex-col md:p-5 lg:p-0">
+                <div class="xl:w-[70%] mt-10 md:mt-0 lg:w-[85%] flex flex-col items-center md:items-left w-4/5 md:w-auto ">
+                    <h1 class="md:text-left text-center text-5xl  lg:text-5xl md:text-4xl pb-3 font-bold border-[#9D2235] border-b border-b-4">
                         Diversity & <span class="text-[#9D2235] font-bolder italic">Inclusion</span>
                     </h1>
-                    <p class="mt-5 text-[#202020] lg:text-md leading-loose font-noto-serif text-left mb-5">
+                    <p class="mt-5 text-[#202020] text-center md:text-left lg:text-md leading-loose font-noto-serif  mb-5">
                         duPont Manual High School is proud to support our Black students, families, teachers, administrators, and staff. We believe that Black (BIPOC) lives do matter, and as such, we pledge to challenge inequities and improve outcomes for Black students in our school, city, state, and country; we prioritize safety and well-being of BIPOC.
                     </p>
-                    <button class="text-left p-5 pt-3 pb-3 flex font-bold border border-4 border-[#9D2235] text-xl justify-center">
+                    <button class="text-left w-4/5 md:w-auto p-5 pt-3 pb-3 flex font-bold border border-4 border-[#9D2235] text-xl justify-center">
                         More Diversity & Racial Info <span><img class="ml-3 w-[30px]" src="{% static './images/rightarrow.svg' %}"></span>
                     </button>
                 </div>
             </div>
-            <div class="w-1/2 flex justify-end">
-                <img src="{% static './images/diversity-img.png' %}" class="w-full h-[500px]">
+            <div class="w-2/3 md:w-1/2 mx-auto my-10 md:my-0 md:mx-0 flex md:justify-end">
+                <img src="{% static './images/diversity-img.png' %}" class="w-full h-[200px] md:h-[500px]">
             </div>
         </div>
     </section>
 
     <section id = "programs" class = "mt-20 "> 
 
-        <div  class = " md:w-full md:px-5 flex flex-center flex-col" style = "margin: 20px auto; "> 
+        <div  class = " w-5/6 md:w-full md:px-5 flex flex-center flex-col" style = "margin: 20px auto; "> 
             <h1 class = "m-auto md:w-2/3 text-center text-6xl pb-3 font-bold border-[#9D2235] border-b border-b-4">Programs For <span class = "text-[#9D2235] font-bolder italic " >Every Student</span></h1>
             <p class = " mt-5  md:w-2/3 md:text-center md:mx-auto  text-[#202020] text-md leading-loose font-noto-serif text-center mb-5">Dupont Matrix High School offers a plethora of magnet programs. This is some dummy text here. This is some dummy text here. </p>
             <button class = "m-auto text-center p-5 pt-3 pb-3 flex  font-bold border border-4 border-[#9D2235] text-xl justify-center">Learn More <span> <img class = "ml-3 w-[30px]" src = "{% static './images/rightarrow.svg' %}"> </span></button>
         </div> 
 
 
-        <div class=" w-full pt-10" style = "100vh">
+        <div class=" w-full pt-10" >
 
             {% comment %} TOP SECTION {% endcomment %}
 
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-0 w-full  text-center text-red">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-0 w-full  text-center ">
 
-                <div style = "height: 60vh" class="bg-cover text-left p-6 bg-[url('{% static './images/mst.png' %}')] flex items-center">
+                <div  class="md:h-[60vh] h-[250px] bg-cover text-left p-6 bg-[url('{% static './images/mst.png' %}')] flex items-center">
                     <div class="lg:w-3/4 md:w-full">
-                        <h2 class="lg:text-3xl md:text-2xl font-bold mb-2 flex items-center text-white">
+                        <h2 class="lg:text-3xl md:text-2xl sm:text-3xl font-bold mb-2 flex items-center text-white">
                             MATH, SCIENCE, TECHNOLOGY (MST)
                             
                         </h2>
-                        <p class="lg:text-xl md:text-lg text-white font-noto-serif mt-5">This is dummy text hereThis is dummy text hereThis is dummy text hereThis is dummy text here
+                        <p class="lg:text-xl md:text-lg  sm:text-xl text-white font-noto-serif mt-5">This is dummy text hereThis is dummy text hereThis is dummy text hereThis is dummy text here
                         </p>
                     </div>
                 </div>
 
-                <div style = "height: 60vh" class="bg-cover  border-l-4 border-[#9D2235] text-left p-6 bg-[url('{% static './images/hsu.png' %}')] flex items-center">
+                <div  class="md:h-[60vh] h-[250px] bg-cover  md:border-l-4 md:border-[#9D2235] text-left p-6 bg-[url('{% static './images/hsu.png' %}')] flex items-center">
                     <div class="lg:w-3/4 md:w-full">
-                        <h2 class="lg:text-3xl md:text-2xl font-bold mb-2 flex items-center text-white">
+                        <h2 class="lg:text-3xl md:text-2xl sm:text-3xl font-bold mb-2 flex items-center text-white">
                             HIGH SCHOOL UNIVERSITY (HSU)
                             
                         </h2>
-                        <p class="lg:text-xl md:text-lg text-white font-noto-serif mt-5">This is dummy text hereThis is dummy text hereThis is dummy text hereThis is dummy text here
+                        <p class="lg:text-xl md:text-lg sm:text-xl text-white font-noto-serif mt-5">This is dummy text hereThis is dummy text hereThis is dummy text hereThis is dummy text here
                         </p>
                     </div>
                 </div>
@@ -579,14 +579,14 @@ ready for another year of being indoctirnated by the matrix and getting referall
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-0 w-full  text-center text-red">
 
-                <div style = "height: 40vh" class="bg-cover text-left p-6 bg-[url('{% static './images/jnc.png' %}')] flex items-center">
+                <div class=" md:h-[40vh] h-[250px] bg-cover text-left p-6 bg-[url('{% static './images/jnc.png' %}')] flex items-center">
 
                     <div class="lg:w-5/6 md:w-full">
-                        <h2 class="lg:text-2xl md:text-xl font-bold mb-2 flex items-center text-white">
+                        <h2 class="lg:text-2xl md:text-xl sm:text-3xl font-bold mb-2 flex items-center text-white">
                             JOURNALISM & COMMUNICATION (J&C)
                            
                         </h2>
-                        <p class="lg:text-lg md:text-md text-white  font-noto-serif">This is dummy text hereThis is dummy text hereThis is dummy text hereThis is dummy text here
+                        <p class="lg:text-lg md:text-md text-white sm:text-xl  font-noto-serif">This is dummy text hereThis is dummy text hereThis is dummy text hereThis is dummy text here
                         </p>
                     </div>
 
@@ -596,14 +596,14 @@ ready for another year of being indoctirnated by the matrix and getting referall
 
                
 
-                <div style="height: 40vh" class="bg-cover text-left p-6 border-[#9D2235] border-t-4 border-r-4 border-l-4 bg-[url('{% static './images/ypas.png' %}')] flex items-center">
+                <div  class=" md:h-[40vh] h-[250px] bg-cover text-left p-6 md:border-[#9D2235] md:border-t-4 md:border-r-4 md:border-l-4 bg-[url('{% static './images/ypas.png' %}')] flex items-center">
 
                     <div class="lg:w-5/6 md:w-full">
-                        <h2 class="lg:text-2xl md:text-xl font-bold mb-2 flex items-center text-white b">
+                        <h2 class="lg:text-2xl md:text-xl sm:text-3xl font-bold mb-2 flex items-center text-white b">
                             YOUTH PERFORMING ARTS SCHOOL (YPAS)
                            
                         </h2>
-                        <p class="lg:text-lg md:text-md text-white  font-noto-serif">This is dummy text hereThis is dummy text hereThis is dummy text hereThis is dummy text here
+                        <p class="lg:text-lg md:text-md text-white sm:text-xl  font-noto-serif">This is dummy text hereThis is dummy text hereThis is dummy text hereThis is dummy text here
                         </p>
                     </div>
 
@@ -611,14 +611,14 @@ ready for another year of being indoctirnated by the matrix and getting referall
                 </div>
 
 
-                <div style = "height: 40vh" class="bg-cover text-left p-6 bg-[url('{% static './images/va.png' %}')] flex items-center">
+                <div  class="md:h-[40vh] h-[250px] bg-cover text-left p-6 bg-[url('{% static './images/va.png' %}')] flex items-center">
 
                     <div class="lg:w-5/6 md:w-full">
-                        <h2 class="lg:text-2xl md:text-xl font-bold mb-2 flex items-center text-white">
+                        <h2 class="lg:text-2xl md:text-xl sm:text-3xl  font-bold mb-2 flex items-center text-white">
                             VISUAL ART (VA)
                            
                         </h2>
-                        <p class="lg:text-lg md:text-md text-white  font-noto-serif">This is dummy text hereThis is dummy text hereThis is dummy text hereThis is dummy text here
+                        <p class="lg:text-lg md:text-md text-white  sm:text-xl font-noto-serif">This is dummy text hereThis is dummy text hereThis is dummy text hereThis is dummy text here
                         </p>
                     </div>
 
