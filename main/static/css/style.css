@@ -7,6 +7,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box !important;
+    scroll-behavior: smooth;
     
 }
 
@@ -25,4 +26,39 @@
   }
 
 
+  .red-arrow-box {
+    cursor: pointer !important;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    border-color: #9D2235;
+    border-width: 6px; /* Initial border width */
+    transition: border-width 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
 
+.red-arrow-box:hover {
+    border-color: #9D2235;
+    animation: pulsate-border 1.5s infinite; /* Border pulsating animation */
+}
+
+/* Pulsating border animation using transform */
+@keyframes pulsate-border {
+    0%, 100% {
+        border-width: 6px;
+    }
+    50% {
+        border-width: 8px;
+    }
+}
+
+.red-arrow-box span img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.red-arrow-box:hover span img {
+    transform: translateX(10px);
+}
+
+.red-arrow-box {
+    transition: border-width 0.5s ease-in-out;
+}

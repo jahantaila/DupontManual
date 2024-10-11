@@ -10,10 +10,17 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="{% static "css/style.css" %}">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
 
     
 </head>
-<body>
+<body class = "scroll-smooth	">
 
 
 
@@ -35,7 +42,7 @@
     
     
 
-    <div class=" mt-3 navbar bg-[#9D2235]">
+    <div class=" mt-3 navbar bg-[#9D2235] ">
         <div class="navbar-start">
             <div class="dropdown">
                 <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -70,47 +77,47 @@
                         <summary class="text-white text-lg text-transform: uppercase tracking-widest">About</summary>
                         <ul class=" z-50 p-2 text-black text-lg">
                             <li><a>Mission & Vision</a></li>
-                            <li><a>History of the School</a></li>
-                            <li><a>School Policies</a></li>
-                            <li><a>Campus Facilities</a></li>
+                            <li><a>School History</a></li>
+                            <li><a>Equity Plan</a></li>
+                            <li><a>SBDM Policies</a></li>
+                            <li><a>Student Agenda</a></li>
+                          
                         </ul>
                     </details>
                     <details>
-                        <summary class="text-white text-lg text-transform: uppercase tracking-widest">Admissions</summary>
-                        <ul class=" z-50 p-2 text-black text-lg">
-                            <li><a>Application Process</a></li>
-                            <li><a>Admission Requirements</a></li>
-                            <li><a>Financial Aid</a></li>
-                            <li><a>Open House Dates</a></li>
-                        </ul>
+                        <summary class="text-white text-lg text-transform: uppercase tracking-widest"> <a target = "_blank" href = "https://sites.google.com/jefferson.kyschools.us/dupontmanualadmissions">Admissions</a></summary>
+                        {% comment %} <ul class=" z-50 p-2 text-black text-lg">
+                         
+                        </ul> {% endcomment %}
                     </details>
                     <details>
                         <summary class="text-white text-lg text-transform: uppercase tracking-widest">Athletics</summary>
                         <ul class="z-50 p-2 text-black text-lg">
                             <li><a>Sports Teams</a></li>
                             <li><a>Game Schedules</a></li>
-                            <li><a>Athletic Achievements</a></li>
                             <li><a>Athletic Facilities</a></li>
-                            <li><a>Coaching Staff</a></li>
                         </ul>
                     </details>
                     <details>
                         <summary class="text-white text-lg text-transform: uppercase tracking-widest">Links</summary>
                         <ul class="z-50 p-2 text-black text-lg">
-                            <li><a>Student Portal</a></li>
-                            <li><a>Parent Portal</a></li>
-                            <li><a>Staff Portal</a></li>
+                            <li><a>Infinite Campus</a></li>
+                            <li><a>Manual Redeye</a></li>
+                           
                             <li><a>Academic Calendar</a></li>
                             <li><a>Lunch Menu</a></li>
+                            <li><a>PTSA</a></li>
+                            <li><a>Crimson Mission</a></li>
+                            <li><a>Alumni</a></li>
                         </ul>
                     </details>
                     <details>
                         <summary class="text-white text-lg text-transform: uppercase tracking-widest">Contact</summary>
                         <ul class="z-50 p-2 text-black text-lg">
-                            <li><a>Contact Information</a></li>
-                            <li><a>Staff Contact</a></li>
+                           
+                            <li><a>Staff Contacts </a></li>
                             <li><a>Map & Directions</a></li>
-                            <li><a>Attendance Office</a></li>
+                            
                         </ul>
                     </details>
                    
@@ -152,8 +159,8 @@
         </div>
     </div>
    </section>
-  <div class="bg-white relative flex flex-col items-center max-w-screen-xl px-6 mx-auto md:flex-col lg:flex-row  p-8">
-    <div class="flex items-center py-5 md:w-full lg:w-1/2  md:pt-10 md:pr-10">
+  <div  class="bg-white relative flex flex-col items-center max-w-screen-xl px-6 mx-auto md:flex-col lg:flex-row  p-8">
+    <div class="flex items-center py-5 md:w-full lg:w-1/2  md:pt-10 md:pr-10 animate__animated animate__bounceInLeft" >
         <div class="text-center lg:text-left">
             <p class="text-[#9D2235] max-w-md mx-auto mt-3 text-base text-lg md:mt-5 md:text-xl md:max-w-3xl text-center lg:text-left">
                  duPont Manual High School
@@ -166,12 +173,11 @@
             </h2>
 
             <p class="max-w-md mx-auto mt-3 text-base text-black text-lg md:mt-5 md:text-xl md:max-w-3xl">
-                 Welcome to duPont Matrix Highschool! Get
-ready for another year of being indoctirnated by the matrix and getting referalls!
+                Leading the Way in Kentucky Education – Where Students Excel and Dreams Take Flight
             </p>
             <div class="mt-5 flex md:mt-8 justify-center lg:justify-start">
-                <div class="rounded-md hover:scale-125 transition ease-in-out delay-100  "><a href=""
-                        class=" flex items-center justify-center w-full px-8 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-[#9D2235] hover:font-bold  border border-transparent rounded-full focus:outline-none focus:shadow-outline-blue md:py-4 md:text-lg md:px-10">
+                <div class="rounded-md hover:scale-125 transition ease-in-out delay-100  "><a href="#our-mission"
+                        class=" flex items-center justify-center w-full px-8 py-3 text-base font-medium leading-6 text-white transition duration-150  ease-in-out bg-[#9D2235] hover:font-bold  border border-transparent rounded-full focus:outline-none focus:shadow-outline-blue md:py-4 md:text-lg md:px-10">
                         About Us
                     </a></div>
                 <div class="hover:scale-125 transition ease-in-out delay-100  rounded-md mt-0 ml-3">
@@ -185,16 +191,16 @@ ready for another year of being indoctirnated by the matrix and getting referall
     </div>
 
 
-    <div class="flex items-center  w-full lg:w-1/2  lg:py-5 lg:pt-10 lg:pl-10">
+    <div class="flex items-center  w-full lg:w-1/2  lg:py-5 lg:pt-10 lg:pl-10 animate__animated animate__bounceInRight ">
         <div class="relative flex justify-center w-full lg:p-3 rounded  md:p-8">
     <div class="relative lg:w-full w-[400px] h-[400px] md:w-[80%] md:h-[500px] bg-cover bg-center rounded-xl" style="background-image: url('{% static "./images/graduatingClass.png" %}');">
         <!-- Red Box and Text Content -->
         <div class="absolute bottom-0 left-0 bg-[#9D2235] text-white p-6 rounded-tr-lg w-64">
-            <p class="text-lg mb-2">May 8th</p>
-            <h1 class="text-2xl font-bold mb-4">Senior Picture Day</h1>
+            <p class="text-lg mb-2">October 9th</p>
+            <h1 class="text-2xl font-bold mb-4">Senior ACT </h1>
 
 
-            <div class = "flex flex-direction-col items-center hover:underline transition ease-in-out hover:animate-pulse ">
+            <div class = " flex flex-direction-col items-center hover:underline transition ease-in-out  ">
             <a href="#" class="text-white text-xl ">Discover Event</a>
             <svg class = "ml-2 " xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white"
                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -216,7 +222,7 @@ ready for another year of being indoctirnated by the matrix and getting referall
 
 {% comment %} Contact information section {% endcomment %}
 
-<div class=" lg:border lg:border-[#D0D0DB] lg:shadow-xl rounded-box flex xl:w-5/6 lg:w-full lg:flex-row mx-auto flex-col w-5/6" style="box-sizing: border-box; ">
+<div class=" lg:border lg:border-[#D0D0DB] lg:shadow-xl rounded-box flex xl:w-5/6 lg:w-full lg:flex-row mx-auto flex-col w-5/6" style="box-sizing: border-box; " data-aos="zoom-out-up" data-aos-duration="3000" >
     <!-- First Section: Call Us -->
     <div class="border border-[#D0D0DB] lg:border-none w-full lg:w-1/3 p-5 flex flex-row justify-start card place-items-center box-border">
         <img class="max-w-[80px]" src="{% static './images/phone.svg' %}" alt="">
@@ -268,7 +274,7 @@ ready for another year of being indoctirnated by the matrix and getting referall
 
 {% comment %} START our motto section {% endcomment %}
 
-<div class=" w-full py-10">
+<div class=" w-full py-10" data-aos="zoom-out-up" data-aos-duration="3000">
     {% comment %} OUR MOTTO HEADING {% endcomment %}
     
     
@@ -322,15 +328,15 @@ ready for another year of being indoctirnated by the matrix and getting referall
     <div class="max-w-7xl flex flex-col  mx-auto py-10 text-center space-y-8">
         <!-- Top section with 40+ AP Courses, 70+ Clubs, 5+ Magnets -->
         <div class="grid sm:grid-cols-3 grid-cols-1 gap-4 text-4xl font-bold">
-            <div>
+            <div data-aos="fade-in" data-aos-duration = "1000">
                 <p class="text-8xl font-noto-serif" >40+</p>
                 <p class="text-xl mt-2">AP Courses</p>
             </div>
-            <div>
+            <div data-aos="fade-in" data-aos-duration = "1000">
                 <p class="text-8xl font-noto-serif">70+</p>
                 <p class="text-xl mt-2">Clubs & Organizations</p>
             </div>
-            <div>
+            <div data-aos="fade-in" data-aos-duration = "1000">
                 <p class="text-8xl font-noto-serif">5+</p>
                 <p class="text-xl mt-2">Magnets</p>
             </div>
@@ -340,30 +346,30 @@ ready for another year of being indoctirnated by the matrix and getting referall
         <div class="h-1 w-full bg-[#9D2235]"></div>
     
         <!-- Middle Section with Course Names -->
-        <div class="text-4xl flex flex-wrap justify-center space-x-4">
-            <p>AP NAME</p>
-            <p>Communication</p>
-            <p>Computer Science</p>
-            <p>Computers Java</p>
-            <p>Education</p>
-            <p>Health Sciences</p>
-            <p>Science</p>
+        <div class="text-4xl flex flex-wrap justify-center space-x-4" data-aos="fade-in" data-aos-duration = "3000">
+            <p>Engineering | </p>
+            <p>Journalism | </p>
+            <p>Computer Science | </p>
+            <p>Research | </p>
+            <p>Physics | </p>
+            <p>Health Sciences | </p>
+            <p>Spanish | </p>
             <p>Psychology</p>
-            <p>More Science</p>
+            <p class = "font-bold text-[#9D2235]">& more exciting classes!</p>
         </div>
     
     <!-- Buttons -->
-    <div class="mt-8" style="display: flex; justify-content: center; flex-wrap: wrap; gap: 10px;">
+    <div class="mt-8" style="display: flex; justify-content: center; flex-wrap: wrap; gap: 10px;" data-aos="fade-in" data-aos-duration = "3000">
         <button
-            class="w-[300px] text-center p-5 pt-3 pb-3 flex font-noto-serif font-bold border border-4 border-[#9D2235] text-xl justify-center">
+            class=" red-arrow-box w-[300px] text-center p-5 pt-3 pb-3 flex font-noto-serif font-bold border border-4 border-[#9D2235] text-xl justify-center">
             View All APs <span> <img class="ml-3 w-[30px]" src="{% static './images/rightarrow.svg' %}"> </span>
         </button>
         <button
-            class="w-[300px] text-center p-5 pt-3 pb-3 flex font-noto-serif font-bold border border-4 border-[#9D2235] text-xl justify-center">
+            class=" red-arrow-box w-[300px] text-center p-5 pt-3 pb-3 flex font-noto-serif font-bold border border-4 border-[#9D2235] text-xl justify-center">
             View All Clubs <span> <img class="ml-3 w-[30px]" src="{% static './images/rightarrow.svg' %}"> </span>
         </button>
         <button
-            class="w-[300px] text-center p-5 pt-3 pb-3 flex font-noto-serif font-bold border border-4 border-[#9D2235] text-xl justify-center">
+            class="red-arrow-box w-[300px] text-center p-5 pt-3 pb-3 flex font-noto-serif font-bold border border-4 border-[#9D2235] text-xl justify-center">
             View All Magnets <span> <img class="ml-3 w-[30px]" src="{% static './images/rightarrow.svg' %}"> </span>
         </button>
     </div>
@@ -376,35 +382,39 @@ ready for another year of being indoctirnated by the matrix and getting referall
 
     {% comment %} NEWS SECTION {% endcomment %}
 
-    <section id="news">
+    <section id="news" >
 
         {% comment %} BUTTON COMPONENT @utility class {% endcomment %}
-        <div class = "lg:w-1/3 md:w-1/2 flex flex-center flex-col" style = "margin: 20px auto; "> 
-            <h1 class = "m-auto text-center text-6xl pb-3 font-bold">Recent <span class = "text-[#9D2235]" >News</span></h1>
-            <button class = "m-auto text-center p-5 pt-3 pb-3 flex  font-bold border border-4 border-[#9D2235] text-xl justify-center">View All News <span> <img class = "ml-3 w-[30px]" src = "{% static './images/rightarrow.svg' %}"> </span></button>
+        
+        <div data-aos="zoom-in-up" data-aos-duration = "2000"  class = "lg:w-1/2 w-full p-5 md:p-0 flex flex-center flex-col" style = "margin: 20px auto; "> 
+            <h1 class = "m-auto text-center text-6xl pb-3 font-bold border-[#9D2235] border-b border-b-4">Manual <span class = "text-[#9D2235] font-bolder italic " >News</span></h1>
+            <p class = " mt-5 text-[#202020] text-md leading-loose font-noto-serif text-center mb-5">Nationally acclaimed news articles, magazine publications, yearbooks, & more!</p>
+            <button class = "red-arrow-box m-auto text-center p-5 pt-3 pb-3 flex  font-bold border border-4 border-[#9D2235] text-xl justify-center"><a target = "_blank" href = "https://manualredeye.com">View All News</a><span> <img class = "ml-3 w-[30px]" src = "{% static './images/rightarrow.svg' %}"> </span></button>
         </div> 
 
+        
         <div class="news--main xl:flex xl:w-full xl:flex-row lg:justify-center lg:items-center flex-col"
         > 
 
 
            {% comment %} START NEWS LEFT {% endcomment %}
-            <div class="news--left lg:ml-[5%] xl:w-1/2 lg:w-5/6 flex flex-col items-center card  rounded-box grid  place-items-center xl:flex xl:flex-col lg:flex lg:mt-10 lg:flex-row" >
+            <div data-aos="zoom-in-left" data-aos-duration = "2000"  class="news--left lg:ml-[5%] xl:w-1/2 lg:w-5/6 flex flex-col items-center card  rounded-box grid  place-items-center xl:flex xl:flex-col lg:flex lg:mt-10 lg:flex-row" >
 
                 <div class = "xl:w-[500px] sm:w-[500px]  lg:w-[400px] lg:h-[300px] xl:h-[370px]" style = "background-color: #9D2235"> 
 
-                    <img class = "p-3 xl:w-[500px] lg:w-[400px] " src = "{% static './images/tejaswinandanthony.png' %}"> 
+                    <img class = "p-3 xl:w-[500px] lg:h-[300px] xl:h-[370px] lg:w-[400px] " src = "{% static './images/news1.jpg' %}"> 
 
                 </div>
 
                 <div class = "xl:w-[80%] lg:w-1/2 w-5/6  mt-3 xl:ml-0 lg:ml-10">
-                    <p class = "font-source-sans text-[#990000] lg:text-xl text-lg font-bold uppercase  tracking-wide text-center lg:text-start">Math, Science, Technology (MST)</p>
+                    <p class = "font-source-sans text-[#990000] lg:text-xl text-lg font-bold uppercase  tracking-wide text-center lg:text-start">Sports & Athletics</p>
                                             
-                    <h1 class = "font-noto-serif lg:text-3xl text-2xl tracking-wide mt-2 text-center lg:text-start">Tejaswin Gontla and Anthony Northinghan dating? Here’s the latest scoop. </h1>
-
-                    <p class = "tracking-wide text-lg mt-3 text-center lg:text-start">Dupont Manual High School is investigating a developing story where Anthony Northinghan stole Deeya’s ex-boyfriend, who had suddenly become a “gay pook”. </p>
+                    <h1 class="font-noto-serif lg:text-3xl text-2xl tracking-wide mt-2 text-center lg:text-start hover:text-[#9D2235] hover:underline hover:decoration-[#9D2235] hover:decoration-2 transition duration-400 ease-in-out cursor-pointer">
+                        <a class="font-noto-serif" target = "_blank" href = "https://manualredeye.com/98741/sports/unexpected-thursday-night-football-ends-in-the-first-loss-of-the-season-for-the-crimsons/">Unexpected Thursday night football ends in the first loss of the season for the Crimsons</a>
+                    </h1>
+                    <p class = "tracking-wide text-lg mt-3 text-center lg:text-start">On Thursday, September 26, Manual’s football team fell to the Centurions of Christian Academy of Louisville, marking the first loss of the 2024 season. </p>
                                             
-                    <p class = "font-source-sans text-md uppercase text-[#990000] text-center  font-bold mt-2 md:text-center lg:text-start">September 16, 2024</p>
+                    <p class = "font-source-sans text-md uppercase text-[#990000] text-center  font-bold mt-2 md:text-center lg:text-start">September 26, 2024</p>
                 </div>
 
             </div>
@@ -414,23 +424,26 @@ ready for another year of being indoctirnated by the matrix and getting referall
             <div class="divider lg:divider-horizontal mx-30"> </div>
             
             {% comment %} START NEWS RIGHT {% endcomment %}
-            <div class="news--right w-5/6 xl:w-[60%] m-auto lg:mx-0 lg:my-10 lg:w-5/6 card  rounded-box  flex-grow place-items-right lg:mr-0 xl:mr-[3%]">
+            <div data-aos="zoom-in-right" data-aos-duration = "2000" class="news--right w-5/6 xl:w-[60%] m-auto lg:mx-0 lg:my-10 lg:w-5/6 card  rounded-box  flex-grow place-items-right lg:mr-0 xl:mr-[3%]">
 
                 <div class = "news--right--element xl:ml-0 lg:ml-[5%]  flex flex-col sm:flex-row xl:items-start lg:items-center " > 
                         
                     <div class="flex flex-col  h-[200px] lg:h-[300px]" style="background-color: #9D2235">
-                        <img class="p-2 xl:w-[500px] w-[500px] lg:w-[400px] h-[200px] lg:h-[300px]" src="{% static './images/tejaswinandanthony.png' %}">
+                        <img class="p-2 xl:w-[500px] w-[500px] lg:w-[400px] h-[200px] lg:h-[300px]" src="{% static './images/news2.jpg' %}">
                     </div>
                     
                         
                     <div class = "flex flex-col sm:ml-5 xl:w-3/4 lg:w-1/2 xl:ml-[20px] lg:ml-10">
-                        <p class = "font-source-sans text-[#990000] xl:text-md lg:text-xl font-bold uppercase  tracking-wide">Math, Science, Technology (MST)</p>
+                        <p class = "font-source-sans text-[#990000] xl:text-md lg:text-xl font-bold uppercase  tracking-wide">DISTRICT WIDE NEWS</p>
                     
-                        <h1 class = "font-noto-serif xl:text-2xl lg:text-3xl tracking-wide mt-2">Tejaswin Gontla and Anthony Northinghan dating? Here’s the latest scoop. </h1>
+                        <h1 class = "font-noto-serif xl:text-2xl lg:text-3xl tracking-wide mt-2 hover:text-[#9D2235] hover:underline hover:decoration-[#9D2235] hover:decoration-2 transition duration-400 ease-in-out cursor-pointer" > 
+                            <a class="font-noto-serif" target = "_blank" href = "https://manualredeye.com/98737/news/local/superintendent-dr-marty-pollio-announces-his-retirement-from-jcps/">Superintendent Dr. Marty Pollio announces his retirement from JCPS</a>
+
+                        </h1>
          
-                        <p class = "tracking-wide xl:text-md lg:text-lg mt-3">Dupont Manual High School is investigating a developing story where Anthony Northinghan stole Deeya’s ex-boyfriend, who had suddenly become a “gay pook”. </p>
+                        <p class = "tracking-wide xl:text-md lg:text-lg mt-3">Dr. Marty Pollio, the JCPS superintendent, announced he will retire at the end of this school year.                         </p>
                              
-                        <p class = "font-source-sans xl:text-sm lg:text-md uppercase text-[#990000] font-bold mt-2">September 16, 2024</p>
+                        <p class = "font-source-sans xl:text-sm lg:text-md uppercase text-[#990000] font-bold mt-2">September 27, 2024</p>
                     </div>
 
                 </div>
@@ -440,18 +453,20 @@ ready for another year of being indoctirnated by the matrix and getting referall
                 <div class = "news--right--element mt-10 xl:ml-0 lg:ml-[5%]  flex flex-col sm:flex-row xl:items-start lg:items-center " > 
                         
                     <div class="flex flex-col  h-[200px] lg:h-[300px]" style="background-color: #9D2235">
-                        <img class="p-2 xl:w-[500px] w-[500px] lg:w-[400px] h-[200px] lg:h-[300px]" src="{% static './images/tejaswinandanthony.png' %}">
+                        <img class="p-2 xl:w-[500px] w-[500px] lg:w-[400px] h-[200px] lg:h-[300px]" src="{% static './images/news3.jpg' %}">
                     </div>
                     
                         
                     <div class = "flex flex-col sm:ml-5 xl:w-3/4 lg:w-1/2 xl:ml-[20px] lg:ml-10">
-                        <p class = "font-source-sans text-[#990000] xl:text-md lg:text-xl font-bold uppercase  tracking-wide">Math, Science, Technology (MST)</p>
+                        <p class = "font-source-sans text-[#990000] xl:text-md lg:text-xl font-bold uppercase  tracking-wide">SPORTS & ATHLETICS</p>
                     
-                        <h1 class = "font-noto-serif xl:text-2xl lg:text-3xl tracking-wide mt-2">Tejaswin Gontla and Anthony Northinghan dating? Here’s the latest scoop. </h1>
+                        <h1 class = "font-noto-serif xl:text-2xl lg:text-3xl tracking-wide mt-2 hover:text-[#9D2235] hover:underline hover:decoration-[#9D2235] hover:decoration-2 transition duration-400 ease-in-out cursor-pointer">
+                            <a class="font-noto-serif" target = "_blank" href = "https://manualredeye.com/98701/sports/girls-soccer-team-ties-against-defending-state-champions-on-senior-night/">Girls’ soccer team ties against defending state champions on senior night</a>
+                        </h1>
          
-                        <p class = "tracking-wide xl:text-md lg:text-lg mt-3">Dupont Manual High School is investigating a developing story where Anthony Northinghan stole Deeya’s ex-boyfriend, who had suddenly become a “gay pook”. </p>
+                        <p class = "tracking-wide xl:text-md lg:text-lg mt-3">The varsity girls’ soccer team tied against the reigning state champions, the Bethlehem Eagles, 2-2. </p>
                              
-                        <p class = "font-source-sans xl:text-sm lg:text-md uppercase text-[#990000] font-bold mt-2">September 16, 2024</p>
+                        <p class = "font-source-sans xl:text-sm lg:text-md uppercase text-[#990000] font-bold mt-2">September 26, 2024</p>
                     </div>
 
                 </div>
@@ -472,10 +487,10 @@ ready for another year of being indoctirnated by the matrix and getting referall
 
     <section id = "our-mission" class = "mt-20"> 
 
-        <div  class = "lg:w-1/2 w-full p-5 md:p-0 flex flex-center flex-col" style = "margin: 20px auto; "> 
+        <div  data-aos="zoom-in-up" data-aos-duration = "2000"  class = "lg:w-1/2 w-full p-5 md:p-0 flex flex-center flex-col" style = "margin: 20px auto; "> 
             <h1 class = "m-auto text-center text-6xl pb-3 font-bold border-[#9D2235] border-b border-b-4">We Are <span class = "text-[#9D2235] font-bolder italic " >Manual Crimsons</span></h1>
             <p class = " mt-5 text-[#202020] text-md leading-loose font-noto-serif text-center mb-5">A dynamic, interdisciplinary, diverse learning community that focuses on rigorous academic, technical, and artistic college-preparatory magnet programs</p>
-            <button class = "m-auto text-center p-5 pt-3 pb-3 flex  font-bold border border-4 border-[#9D2235] text-xl justify-center">Learn More About Us <span> <img class = "ml-3 w-[30px]" src = "{% static './images/rightarrow.svg' %}"> </span></button>
+            <button class = " red-arrow-box m-auto text-center p-5 pt-3 pb-3 flex  font-bold border border-4 border-[#9D2235] text-xl justify-center">Learn More About Us <span> <img class = "ml-3 w-[30px]" src = "{% static './images/rightarrow.svg' %}"> </span></button>
         </div> 
 
 
@@ -487,7 +502,7 @@ ready for another year of being indoctirnated by the matrix and getting referall
               
           
               <!-- Mission Card -->
-                <div style = "height: 60vh" class="bg-cover text-left p-6 bg-[url('{% static './images/ourmission.png' %}')] h-full flex items-center">
+                <div data-aos="zoom-in-left" data-aos-duration = "2000" style = "height: 60vh" class="bg-cover text-left p-6 bg-[url('{% static './images/ourmission.png' %}')] h-full flex items-center">
 
                     <div class="lg:w-3/4 w-full">
                         <h2 class="lg:text-5xl text-4xl font-bold mb-2 flex items-center">
@@ -504,7 +519,7 @@ ready for another year of being indoctirnated by the matrix and getting referall
 
           {% comment %}  {% endcomment %}
               <!-- Vision Card -->
-              <div style = "height: 60vh" class="bg-cover text-left border-0  md:border-l-4 md:border-[#9D2235] p-6 bg-[url('{% static './images/ourvision.png' %}')] h-full flex items-center">
+              <div data-aos="zoom-in-right" data-aos-duration = "2000" style = "height: 60vh" class="bg-cover text-left border-0  md:border-l-4 md:border-[#9D2235] p-6 bg-[url('{% static './images/ourvision.png' %}')] h-full flex items-center">
 
                 <div class="lg:w-3/4 w-full">
                     <h2 class="lg:text-5xl text-4xl font-bold mb-2 flex items-center">
@@ -522,8 +537,8 @@ ready for another year of being indoctirnated by the matrix and getting referall
     </section>
 
     <section id="diversity" class = "md:max-h-[500px]" style="background: linear-gradient(to right, #F9F9F9, #F0EFEF); " >
-        <div class="w-full md:h-full flex flex-col md:flex-row">
-            <div class="md:w-1/2 w-full flex items-center justify-center flex-col md:p-5 lg:p-0">
+        <div class="w-full md:h-full flex flex-col md:flex-row" >
+            <div class="md:w-1/2 w-full flex items-center justify-center flex-col md:p-5 lg:p-0" data-aos="zoom-in-left" data-aos-duration = "2000">
                 <div class="xl:w-[70%] mt-10 md:mt-0 lg:w-[85%] flex flex-col items-center md:items-left w-4/5 md:w-auto ">
                     <h1 class="md:text-left text-center text-5xl  lg:text-5xl md:text-4xl pb-3 font-bold border-[#9D2235] border-b border-b-4">
                         Diversity & <span class="text-[#9D2235] font-bolder italic">Inclusion</span>
@@ -531,23 +546,24 @@ ready for another year of being indoctirnated by the matrix and getting referall
                     <p class="mt-5 text-[#202020] text-center md:text-left lg:text-md leading-loose font-noto-serif  mb-5">
                         duPont Manual High School is proud to support our Black students, families, teachers, administrators, and staff. We believe that Black (BIPOC) lives do matter, and as such, we pledge to challenge inequities and improve outcomes for Black students in our school, city, state, and country; we prioritize safety and well-being of BIPOC.
                     </p>
-                    <button class="text-left w-4/5 md:w-auto p-5 pt-3 pb-3 flex font-bold border border-4 border-[#9D2235] text-xl justify-center">
+                    <button class="red-arrow-box text-left w-4/5 md:w-auto p-5 pt-3 pb-3 flex font-bold border border-4 border-[#9D2235] text-xl justify-center">
                         More Diversity & Racial Info <span><img class="ml-3 w-[30px]" src="{% static './images/rightarrow.svg' %}"></span>
                     </button>
                 </div>
             </div>
-            <div class="w-2/3 md:w-1/2 mx-auto my-10 md:my-0 md:mx-0 flex md:justify-end">
+            <div class="w-2/3 md:w-1/2 mx-auto my-10 md:my-0 md:mx-0 flex md:justify-end" data-aos="zoom-in-right" data-aos-duration = "2000">
                 <img src="{% static './images/diversity-img.png' %}" class="w-full h-[200px] md:h-[500px]">
             </div>
         </div>
+
     </section>
 
     <section id = "programs" class = "mt-20 "> 
 
-        <div  class = " w-5/6 md:w-full md:px-5 flex flex-center flex-col" style = "margin: 20px auto; "> 
+        <div  data-aos="zoom-in-up" data-aos-duration = "2000" class = " w-5/6 md:w-full md:px-5 flex flex-center flex-col" style = "margin: 20px auto; "> 
             <h1 class = "m-auto md:w-2/3 text-center text-6xl pb-3 font-bold border-[#9D2235] border-b border-b-4">Programs For <span class = "text-[#9D2235] font-bolder italic " >Every Student</span></h1>
-            <p class = " mt-5  md:w-2/3 md:text-center md:mx-auto  text-[#202020] text-md leading-loose font-noto-serif text-center mb-5">Dupont Matrix High School offers a plethora of magnet programs. This is some dummy text here. This is some dummy text here. </p>
-            <button class = "m-auto text-center p-5 pt-3 pb-3 flex  font-bold border border-4 border-[#9D2235] text-xl justify-center">Learn More <span> <img class = "ml-3 w-[30px]" src = "{% static './images/rightarrow.svg' %}"> </span></button>
+            <p class = " mt-5  md:w-2/3 md:text-center md:mx-auto  text-[#202020] text-md leading-loose font-noto-serif text-center mb-5">Dupont Manual High School offers a plethora of magnet programs that cater to diverse student interests and talents. Regardless if you like math or painting, Manual has a program for you!  </p>
+            <button class = "red-arrow-box m-auto text-center p-5 pt-3 pb-3 flex  font-bold border border-4 border-[#9D2235] text-xl justify-center">Learn More <span> <img class = "ml-3 w-[30px]" src = "{% static './images/rightarrow.svg' %}"> </span></button>
         </div> 
 
 
@@ -557,24 +573,28 @@ ready for another year of being indoctirnated by the matrix and getting referall
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-0 w-full  text-center ">
 
-                <div  class="md:h-[60vh] h-[250px] bg-cover text-left p-6 bg-[url('{% static './images/mst.png' %}')] flex items-center">
+                <div data-aos="zoom-in-up" data-aos-duration = "2000"  class="md:h-[60vh] h-[250px] bg-cover text-left p-6 bg-[url('{% static './images/mst.png' %}')] flex items-center">
                     <div class="lg:w-3/4 md:w-full">
                         <h2 class="lg:text-3xl md:text-2xl text-3xl font-bold mb-2 flex items-center text-white">
                             MATH, SCIENCE, TECHNOLOGY (MST)
                             
                         </h2>
-                        <p class="lg:text-xl md:text-lg  text-xl text-white font-noto-serif mt-5">This is dummy text hereThis is dummy text hereThis is dummy text hereThis is dummy text here
+                        <p class="lg:text-xl md:text-lg  text-xl text-white font-noto-serif mt-5">Unlock the world of innovation with advanced coursework in mathematics, science, and technology. Perfect for students passionate about problem-solving, scientific discovery, and cutting-edge technology.
                         </p>
                     </div>
                 </div>
 
-                <div  class="md:h-[60vh] h-[250px] bg-cover  md:border-l-4 md:border-[#9D2235] text-left p-6 bg-[url('{% static './images/hsu.png' %}')] flex items-center">
+                <div data-aos="zoom-in-up" data-aos-duration = "2000"  class="md:h-[60vh] h-[250px] bg-cover  md:border-l-4 md:border-[#9D2235] text-left p-6 bg-[url('{% static './images/hsu.png' %}')] flex items-center">
                     <div class="lg:w-3/4 md:w-full">
                         <h2 class="lg:text-3xl md:text-2xl text-3xl font-bold mb-2 flex items-center text-white">
                             HIGH SCHOOL UNIVERSITY (HSU)
                             
                         </h2>
-                        <p class="lg:text-xl md:text-lg text-xl text-white font-noto-serif mt-5">This is dummy text hereThis is dummy text hereThis is dummy text hereThis is dummy text here
+                        <p class="lg:text-xl md:text-lg text-xl text-white font-noto-serif mt-5">Pursue a rigorous academic experience that mirrors a college environment. With opportunities for dual credit and advanced placement, this program is ideal for students focused on academic excellence.
+
+
+
+
                         </p>
                     </div>
                 </div>
@@ -583,7 +603,7 @@ ready for another year of being indoctirnated by the matrix and getting referall
 
             {% comment %} BOTTOM SECTION {% endcomment %}
 
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-0 w-full  text-center text-red">
+            <div data-aos="zoom-in-up" data-aos-duration = "2000" class="grid grid-cols-1 md:grid-cols-3 gap-0 w-full  text-center text-red">
 
                 <div class=" md:h-[40vh] h-[250px] bg-cover text-left p-6 bg-[url('{% static './images/jnc.png' %}')] flex items-center">
 
@@ -592,7 +612,7 @@ ready for another year of being indoctirnated by the matrix and getting referall
                             JOURNALISM & COMMUNICATION (J&C)
                            
                         </h2>
-                        <p class="lg:text-lg md:text-md text-white text-xl  font-noto-serif">This is dummy text hereThis is dummy text hereThis is dummy text hereThis is dummy text here
+                        <p class="lg:text-lg md:text-md text-white text-xl  font-noto-serif">Channel your voice through writing, media production, and public speaking. This program equips students with the skills needed to excel in print, broadcast, and digital journalism.
                         </p>
                     </div>
 
@@ -602,14 +622,16 @@ ready for another year of being indoctirnated by the matrix and getting referall
 
                
 
-                <div  class=" md:h-[40vh] h-[250px] bg-cover text-left p-6 md:border-[#9D2235] md:border-t-4 md:border-r-4 md:border-l-4 bg-[url('{% static './images/ypas.png' %}')] flex items-center">
+                <div data-aos="zoom-in-up" data-aos-duration = "2000"  class=" md:h-[40vh] h-[250px] bg-cover text-left p-6 md:border-[#9D2235] md:border-t-4 md:border-r-4 md:border-l-4 bg-[url('{% static './images/ypas.png' %}')] flex items-center">
 
                     <div class="lg:w-5/6 md:w-full">
                         <h2 class="lg:text-2xl md:text-xl text-3xl font-bold mb-2 flex items-center text-white b">
                             YOUTH PERFORMING ARTS SCHOOL (YPAS)
                            
                         </h2>
-                        <p class="lg:text-lg md:text-md text-white text-xl  font-noto-serif">This is dummy text hereThis is dummy text hereThis is dummy text hereThis is dummy text here
+                        <p class="lg:text-lg md:text-md text-white text-xl  font-noto-serif">Step into the spotlight with our dynamic Performing Arts program, offering specialized training in theater, music, and dance. Students hone their talents and perform in professional-level productions.
+
+
                         </p>
                     </div>
 
@@ -617,14 +639,14 @@ ready for another year of being indoctirnated by the matrix and getting referall
                 </div>
 
 
-                <div  class="md:h-[40vh] h-[250px] bg-cover text-left p-6 bg-[url('{% static './images/va.png' %}')] flex items-center">
+                <div data-aos="zoom-in-up" data-aos-duration = "2000"   class="md:h-[40vh] h-[250px] bg-cover text-left p-6 bg-[url('{% static './images/va.png' %}')] flex items-center">
 
                     <div class="lg:w-5/6 md:w-full">
                         <h2 class="lg:text-2xl md:text-xl text-3xl  font-bold mb-2 flex items-center text-white">
                             VISUAL ART (VA)
                            
                         </h2>
-                        <p class="lg:text-lg md:text-md text-white  text-xl font-noto-serif">This is dummy text hereThis is dummy text hereThis is dummy text hereThis is dummy text here
+                        <p class="lg:text-lg md:text-md text-white  text-xl font-noto-serif">Explore your creativity and artistic expression through immersive, hands-on courses in painting, sculpture, photography, and more. A program designed for budding artists to refine their craft.
                         </p>
                     </div>
 
@@ -649,16 +671,16 @@ ready for another year of being indoctirnated by the matrix and getting referall
 {% comment %} Student Resources Section {% endcomment %}
     <section class = "my-10 "> 
 
-        <div  class = " w-5/6 md:w-full md:px-5 flex flex-center flex-col" style = "margin: 20px auto; "> 
+        <div data-aos="zoom-in-up" data-aos-duration = "2000"  class = " w-5/6 md:w-full md:px-5 flex flex-center flex-col" style = "margin: 20px auto; "> 
             <h1 class = "m-auto md:w-2/3 text-center text-6xl pb-3 font-bold border-[#9D2235] border-b border-b-4">Student <span class = "text-[#9D2235] font-bolder italic " >Resources</span></h1>
-            <p class = " mt-5  md:w-3/6 md:text-center md:mx-auto  text-[#202020] text-md leading-loose font-noto-serif text-center mb-5">Dupont Manual High School offers a plethora of student resources. This is some dummy text here. This is some dummy text here. </p>
-            <button class = "m-auto text-center p-5 pt-3 pb-3 flex  font-bold border border-4 border-[#9D2235] text-xl justify-center">Learn More <span> <img class = "ml-3 w-[30px]" src = "{% static './images/rightarrow.svg' %}"> </span></button>
+            <p class = " mt-5  md:w-3/6 md:text-center md:mx-auto  text-[#202020] text-md leading-loose font-noto-serif text-center mb-5">Dupont Manual High School provides students with a wide range of resources to help them thrive academically, socially, and emotionally.</p>
+            <button class = " red-arrow-box m-auto text-center p-5 pt-3 pb-3 flex  font-bold border border-4 border-[#9D2235] text-xl justify-center">Learn More <span> <img class = "ml-3 w-[30px]" src = "{% static './images/rightarrow.svg' %}"> </span></button>
         </div> 
 
         {% comment %} MAIN CARASOUL {% endcomment %}
 
 
-        <div class="carousel flex flex-row w-full ">
+        <div data-aos="fade-in" data-aos-duration = "2000"  class="carousel flex flex-row w-full ">
             <div id="slide1" class="carousel-item relative w-full transition-transform duration-700 ease-in-out transform">
  
  
@@ -683,15 +705,17 @@ ready for another year of being indoctirnated by the matrix and getting referall
                         <div class="card-body flex flex-col justify-start">
                             <div class = "flex flex-col gap-1">
                                 <h2 class="card-title font-bold text-4xl  ">Library</h2>
-                                <p class = "text-xl">Come visit Mrs. Causey today!</p>
+                                <p class = "text-xl">Access our myriad of books, resources, & more!</p>
          
                             </div>
                        
                           <div class="card-actions justify-start">
-                                <button
-                            class=" text-center p-5 pt-3 pb-3 flex font-noto-serif font-bold border border-2 border-[#9D2235] text-lg justify-center">
+                            <a href = "https://jcpsky.libguides.com/dupontmanuallibrary" target = "_blank"> 
+                                <button 
+                            class=" red-arrow-box text-center p-5 pt-3 pb-3 flex font-noto-serif font-bold border border-2 border-[#9D2235] text-lg justify-center">
                             Visit <span> <img class="ml-3 w-[30px]" src="{% static './images/rightarrow.svg' %}"> </span>
                         </button>
+                    </a>
                           </div>
                         </div>
                     </div>
@@ -712,9 +736,12 @@ ready for another year of being indoctirnated by the matrix and getting referall
                             </div>
                          
                             <div class="card-actions justify-start">
-                                <button class="text-center p-5 pt-3 pb-3 flex font-noto-serif font-bold border border-2 border-[#9D2235] text-lg justify-center">
+                                <a href = "/athletics" target = "_blank"> 
+                                    <button 
+                                <button class="red-arrow-box text-center p-5 pt-3 pb-3 flex font-noto-serif font-bold border border-2 border-[#9D2235] text-lg justify-center">
                                     Visit <span><img class="ml-3 w-[30px]" src="{% static './images/rightarrow.svg' %}"></span>
                                 </button>
+                            </a>
                             </div>
                         </div>
                    
@@ -738,9 +765,12 @@ ready for another year of being indoctirnated by the matrix and getting referall
                             </div>
                          
                             <div class="card-actions justify-start">
-                                <button class="text-center p-5 pt-3 pb-3 flex font-noto-serif font-bold border border-2 border-[#9D2235] text-lg justify-center">
+                                <a href = "https://sites.google.com/jefferson.kyschools.us/dupontmanualcounseling/home" target = "_blank"> 
+                                    <button 
+                                <button class=" red-arrow-box text-center p-5 pt-3 pb-3 flex font-noto-serif font-bold border border-2 border-[#9D2235] text-lg justify-center">
                                     Visit <span><img class="ml-3 w-[30px]" src="{% static './images/rightarrow.svg' %}"></span>
                                 </button>
+                            </a>
                             </div>
                         </div>
                    
@@ -785,10 +815,14 @@ ready for another year of being indoctirnated by the matrix and getting referall
                         </div>
                    
                       <div class="card-actions justify-start">
+
+                        <a href = "https://jcpsky.infinitecampus.org/campus/portal/students/jcps.jsp" target = "_blank"> 
+
                             <button
-                        class=" text-center p-5 pt-3 pb-3 flex font-noto-serif font-bold border border-2 border-[#9D2235] text-lg justify-center">
+                        class=" red-arrow-box text-center p-5 pt-3 pb-3 flex font-noto-serif font-bold border border-2 border-[#9D2235] text-lg justify-center">
                         Visit <span> <img class="ml-3 w-[30px]" src="{% static './images/rightarrow.svg' %}"> </span>
                     </button>
+                </a>
                       </div>
                     </div>
                 </div>
@@ -811,9 +845,13 @@ ready for another year of being indoctirnated by the matrix and getting referall
                         </div>
                      
                         <div class="card-actions justify-start">
-                            <button class="text-center p-5 pt-3 pb-3 flex font-noto-serif font-bold border border-2 border-[#9D2235] text-lg justify-center">
+
+                            <a href = "https://manualptsa.com/" target = "_blank"> 
+
+                            <button class="red-arrow-box text-center p-5 pt-3 pb-3 flex font-noto-serif font-bold border border-2 border-[#9D2235] text-lg justify-center">
                                 Visit <span><img class="ml-3 w-[30px]" src="{% static './images/rightarrow.svg' %}"></span>
                             </button>
+                        </a>
                         </div>
                     </div>
                
@@ -840,9 +878,12 @@ ready for another year of being indoctirnated by the matrix and getting referall
                         </div>
                      
                         <div class="card-actions justify-start">
-                            <button class="text-center p-5 pt-3 pb-3 flex font-noto-serif font-bold border border-2 border-[#9D2235] text-lg justify-center">
+                            <a href = "https://www.jefferson.kyschools.us/" target = "_blank"> 
+
+                            <button class="red-arrow-box text-center p-5 pt-3 pb-3 flex font-noto-serif font-bold border border-2 border-[#9D2235] text-lg justify-center">
                                 Visit <span><img class="ml-3 w-[30px]" src="{% static './images/rightarrow.svg' %}"></span>
                             </button>
+                        </a>
                         </div>
                     </div>
                
@@ -909,29 +950,31 @@ ready for another year of being indoctirnated by the matrix and getting referall
 
        {% comment %} TOP SECTION {% endcomment %}
         <div class="w-full flex sm:flex-row flex-col justify-between p-5 md:p-10">
-            <div class="lg:w-2/6 sm:w-1/2 text-left w-full text-center sm:text-left p-4 rounded flex flex-col">
+            <div data-aos="fade-in" data-aos-duration = "2000" class="lg:w-2/6 sm:w-1/2 text-left w-full text-center sm:text-left p-4 rounded flex flex-col">
                 <img class = "mx-auto sm:mx-0"src = "{% static './images/manuallogo.png' %}" style = "width: 100px; height: 100px"> 
                 <h1 class = "text-5xl mt-3 font-bold mb-2  text-white  ">About Our School</h1> 
 
                 <div class="mt-3 rounded-md lg:w-1/2 md:w-3/4">
                     <a href=""
-                        class="flex items-center justify-center w-full px-8 py-3  font-3xl leading-6 text-[#EEEEEE] bg-[#9D2235] border border-[#EEEEEE] rounded-full  md:py-4 md:text-2xl md:px-10">
+                        class="flex items-center justify-center w-full px-8 py-3 font-3xl leading-6 text-[#EEEEEE] bg-[#9D2235] border border-[#EEEEEE] rounded-full md:py-4 md:text-2xl md:px-10 transition transform duration-300 ease-in-out hover:scale-110 hover:font-bold hover:animate-pulse">
                         Learn More
                     </a>
                 </div>
+                
             </div>
 
-            <div class="lg:w-3/6 md:w-4/6  w-full text-center sm:text-left sm:w-4/6 p-4 rounded flex flex-col text-left">
-                <p class = "text-[#D8E3FB] text-2xl">We are the best high school in Kentucky. This is some text here.  This is some text here.  This is some text here.  This is some text here.  This is some text here.  This is some text here.  This is some text here.  </p>
-                <p class = "font-bold text-xl text-white mt-10">Founded in 1889. This is some text about our history. This is some text about our history. This is some text about our history. This is some text about our history. This is some text about our history. This is some text about our history. This is some text about our history. </p>
+            <div data-aos="fade-in" data-aos-duration = "2000" class="lg:w-3/6 md:w-4/6  w-full text-center sm:text-left sm:w-4/6 p-4 rounded flex flex-col text-left">
+                <p class = "text-[#D8E3FB] text-2xl">We are proud to be the best high school in Kentucky, consistently ranked #1 for academic excellence and innovation. Our students excel in rigorous coursework, cutting-edge technology, and extracurricular activities, preparing them for top universities and careers. With diverse magnet programs and dedicated faculty, we offer an enriching environment where every student can explore their passions and achieve their full potential.
 
-                <p class = "flex flex-row text-lg mx-auto sm:mx-0 mt-5 items-center text-white">Read More <span class = "ml-2"><img class = "w-[25px]" src = "{% static './images/arrowright.svg' %}"> </span></p>
+                </p>
+                <p class = "font-bold text-xl text-white mt-10">Founded in 1889, Dupont Manual High School has a long-standing tradition of excellence in education. Originally established as a manual training school, we have evolved to become a hub of academic, artistic, and technological achievement. Over the decades, we’ve nurtured generations of leaders, thinkers, and innovators, adapting to the changing world while honoring our historic roots.                </p>
+
             </div>
         </div>
 
         {% comment %} BOTTOM SECTION {% endcomment %}
 
-        <div class="flex flex-col items-center">
+        <div data-aos="fade-in" data-aos-duration = "2000" class="flex flex-col items-center">
             <figure>
                 <img src="{% static './images/topmatrix.png' %}">
             </figure>
@@ -946,7 +989,7 @@ ready for another year of being indoctirnated by the matrix and getting referall
                     {% comment %} text section {% endcomment %}
                     <div class = "sm:w-1/2 w-full text-center"> 
                     <p class="text-white lg:text-5xl sm:text-3xl text-xl md:text-4xl font-bold">Video Tour Of Manual</p>
-                    <p class = "sm:mt-5 mt-3 lg:text-xl text-sm sm:text-md md:text-lg font-noto-serif text-white font-bold ">Take a tour of Dupont Manual and learn why we are the best high school in the entire state of Kentucky. This here is dummy text.</p>
+                    <p class = "sm:mt-5 mt-3 lg:text-xl text-sm sm:text-md md:text-lg font-noto-serif text-white font-bold ">Take a tour of Dupont Manual and learn what makes us the #1 high school in all of Kentucky!</p>
 
                     </div> 
 
@@ -968,27 +1011,56 @@ ready for another year of being indoctirnated by the matrix and getting referall
           <h6 class="footer-title text-white opacity-100 text-xl tracking-wider" >About</h6>
           <a class="link link-hover text-white text-lg">Mission & Vision</a>
           <a class="link link-hover text-white text-lg">School History</a>
-          <a class="link link-hover text-white text-lg">School Policies</a>
-          <a class="link link-hover text-white text-lg">Athletics</a>
+          <a class="link link-hover text-white text-lg">Equity Plan</a>
+          <a class="link link-hover text-white text-lg">SBDM Policies</a>
+          <a class="link link-hover text-white text-lg">Student Agenda</a>
         </nav>
         <nav class = "mx-auto md:mx-0">
-            <h6 class="footer-title text-white opacity-100 text-xl tracking-wider" >Admissions</h6>
-            <a class="link link-hover text-white text-lg">Admissions Process</a>
-          <a class="link link-hover text-white text-lg text-white text-lg">Admissions Requirements</a>
-          <a class="link link-hover link link-hover text-white text-lg">Open House</a>
-          <a class="link link-hover text-white text-lg">Events</a>
+            <h6 class="footer-title text-white opacity-100 text-xl tracking-wider" >Athletics</h6>
+            <a class="link link-hover text-white text-lg">Sports Teams</a>
+          <a class="link link-hover text-white text-lg text-white text-lg">Game Schedules</a>
+          <a class="link link-hover link link-hover text-white text-lg">Athletic Facilities</a>
+          
         </nav>
         <nav class = "mx-auto md:mx-0">
-            <h6 class="footer-title text-white opacity-100 text-xl tracking-wider" >Student Resources</h6>
-            <a class="link link-hover text-white text-lg">General Info</a>
-          <a class="link link-hover link link-hover text-white text-lg">Infinite Campus</a>
-          <a class="link link-hover link link-hover text-white text-lg">School Info</a>
-          <a class="link link-hover link link-hover text-white text-lg">Manual Staff</a>
+            <h6 class="footer-title text-white opacity-100 text-xl tracking-wider" >Links</h6>
+            <a class="link link-hover text-white text-lg">Infinite Campus</a>
+          <a class="link link-hover link link-hover text-white text-lg">Academic Calender</a>
+          <a class="link link-hover link link-hover text-white text-lg">Staff Contacts</a>
+          <a class="link link-hover link link-hover text-white text-lg">PTSA</a>
+          <a class="link link-hover link link-hover text-white text-lg">Crimson Mission</a>
+
 
         </nav>
+
+      
+
+
       </footer>
 
+      <div  class = " bg-[#9D2235] mx-auto text-center pb-5  ">
 
+        <div data-aos="zoom-in-up" data-aos-duration = "1000">
+        <h1 class = "text-4xl text-white font-bold">Designed & Developed By: </h1>
+        <p class="text-white mt-3 text-2xl text-center">
+            <span>
+                <a target = "_blank" href="https://x.com/jahantaila" 
+                   class="hover:underline hover:scale-125 transition-transform transition-colors ease-in-out duration-300">
+                   Jahan (rizzler) Taila. Class of 2025.
+                </a>
+            </span>
+        </p>
+        <p class="text-white text-center mt-3 text-2xl">
+            <span>
+                <a target = "_blank" href="https://x.com/yashmpathak" 
+                   class="hover:underline hover:scale-125 transition-transform transition-colors ease-in-out duration-300">
+                   Yash (no rizz) Pathak. Class of 2025.
+                </a>
+            </span>
+        </p>
+        <p class = "text-white w-1/3 mt-3 mx-auto" >Also special shoutout to the best teacher at Manual... Mr. Dallmann! We Love You!</p>
+    </div>
+        </div>
     
       <script>
         function slideTo(slideNumber) {
@@ -997,7 +1069,26 @@ ready for another year of being indoctirnated by the matrix and getting referall
                 slide.style.transform = `translateX(${-(slideNumber - 1) * 100}%)`;
             });
         }
+
+        document.querySelectorAll('details').forEach((details) => {
+            details.addEventListener('toggle', function () {
+               
+                if (this.open) {
+                    document.querySelectorAll('details').forEach((otherDetails) => {
+                        if (otherDetails !== this && otherDetails.open) {
+                            otherDetails.removeAttribute('open');
+                        }
+                    });
+                }
+            });
+        });
+
+        
     </script>
+
+    <script>
+        AOS.init();
+      </script>
     
 
     
