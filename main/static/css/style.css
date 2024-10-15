@@ -62,3 +62,14 @@
 .red-arrow-box {
     transition: border-width 0.5s ease-in-out;
 }
+
+
+.no-dropdown::after {
+  content: "" !important;
+}
+
+.aos-hover:hover {
+  transform: scale(1.10) !important;
+  transition-duration: 500ms !important;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1) !important;
+}

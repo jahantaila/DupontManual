@@ -42,7 +42,7 @@
     
     
 
-    <div class=" mt-3 navbar bg-[#9D2235] ">
+    <div class=" mt-3 navbar bg-[#9D2235]   ">  <!--fixed top-0 left-0 right-0 mt-3 navbar bg-[#9D2235] z-50-->
         <div class="navbar-start">
             <div class="dropdown">
                 <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -52,20 +52,56 @@
                     </svg>
                 </div>
                 <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                <li><a>Home</a></li>
-                <li><a>About</a></li>
-                <li><a>Admissions</a></li>
-                <li><a>Athletics</a></li>
-                <li><a>Links</a></li>
-                <li><a>Contact</a></li>
                     <li>
-                        <a>Parent</a>
+                        <a>About</a>
                         <ul class="p-2">
-                            <li><a>Submenu 1</a></li>
-                            <li><a>Submenu 2</a></li>
+                            <li><a href = "#our-mission">Mission & Vision</a></li>
+                            <li><a href = "#history">School History</a></li>
+                            <li><a target = "_blank" href = "https://dupontmanual.com/pubs/ManualRacialEquityPlan.pdf">Equity Plan</a></li>
+                            <li><a target = "_blank" href = "https://docs.google.com/document/d/14JSQJExyB3O_oC0RmBG4VxIq9U4MPneCSH6oUNqtBss/edit?tab=t.0">SBDM Policies</a></li>
+                            <li><a target = "_blank" href = "https://www.dupontmanual.com/pubs/studenthandbook.pdf">Student Agenda</a></li>
+
                         </ul>
                     </li>
-                    <li><a>Item 3</a></li>
+
+                    <li>
+                        <a target = "_blank" href = "https://sites.google.com/jefferson.kyschools.us/dupontmanualadmissions" >Admissions</a>
+                    </li>
+
+                    <li>
+                        <a>Athletics</a>
+                        <ul class="p-2">
+                            <li><a>Sports Teams</a></li>
+                            <li><a>Game Schedules</a></li>
+                            <li><a>Athletic Facilities</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a>Links</a>
+                        <ul class="p-2">
+                            <li><a target = "_blank" href = "https://jcpsky.infinitecampus.org/campus/portal/students/jcps.jsp">Infinite Campus</a></li>
+                            <li><a target = "_blank" href = "https://manualredeye.com/">Manual Redeye</a></li>
+                           
+                            <li><a target = "_blank" href = "https://www.jefferson.kyschools.us/o/jcps/page/calendar-at-a-glance" >Academic Calendar</a></li>
+                            <li><a target = "_blank" href = "https://jcps.nutrislice.com/menu/dupont-manual" >Lunch Menu</a></li>
+                            <li><a target = "_blank" href = "https://manualptsa.com/" >PTSA</a></li>
+                            <li><a target = "_blank" href = "https://www.thecrimsonmission.org/" >Crimson Mission</a></li>
+                            <li><a target = "_blank" href = "https://dupontmanualalumni.com/" >Alumni</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a>Contact</a>
+                        <ul class="p-2">
+                            <li><a>Staff Contacts </a></li>
+                            <li><a target = "_blank" href = "https://www.google.com/maps/place/DuPont+Manual+High+School/@38.2295455,-85.7564096,2508m/data=!3m1!1e3!4m6!3m5!1s0x88690d5ced063c7b:0x9323d9ceab1ed168!8m2!3d38.2223769!4d-85.7582583!16zL20vMGp2ZnY?entry=ttu&g_ep=EgoyMDI0MTAwOS4wIKXMDSoASAFQAw%3D%3D">Map & Directions</a></li>
+                        </ul>
+                    </li>
+
+
+
+
                 </ul>
             </div>
             <img class=" xl:ml-10 lg:ml-0 w-28 h-28" src="{% static 'images/manuallogo.png' %}" alt="">
@@ -74,18 +110,18 @@
             <ul class="menu menu-horizontal px-1">
                 <li class="menu menu-horizontal px-1 space-x-9">
                     <details>
-                        <summary class="text-white text-lg text-transform: uppercase tracking-widest">About</summary>
+                        <summary class="text-white text-lg text-transform: uppercase tracking-widest">About</summary>   <!--✅✅✅-->
                         <ul class=" z-50 p-2 text-black text-lg">
-                            <li><a>Mission & Vision</a></li>
-                            <li><a>School History</a></li>
-                            <li><a>Equity Plan</a></li>
-                            <li><a>SBDM Policies</a></li>
-                            <li><a>Student Agenda</a></li>
-                          
+                            <li><a href = "#our-mission">Mission & Vision</a></li>
+                            <li><a href = "#history">School History</a></li>
+                            <li><a target = "_blank" href = "https://dupontmanual.com/pubs/ManualRacialEquityPlan.pdf">Equity Plan</a></li>
+                            <li><a target = "_blank" href = "https://docs.google.com/document/d/14JSQJExyB3O_oC0RmBG4VxIq9U4MPneCSH6oUNqtBss/edit?tab=t.0">SBDM Policies</a></li>
+                            <li><a target = "_blank" href = "https://www.dupontmanual.com/pubs/studenthandbook.pdf">Student Agenda</a></li>
+                           
                         </ul>
                     </details>
                     <details>
-                        <summary class="text-white text-lg text-transform: uppercase tracking-widest"> <a target = "_blank" href = "https://sites.google.com/jefferson.kyschools.us/dupontmanualadmissions">Admissions</a></summary>
+                        <summary class=" no-dropdown text-white text-lg text-transform: uppercase tracking-widest"> <a target = "_blank" href = "https://sites.google.com/jefferson.kyschools.us/dupontmanualadmissions">Admissions</a></summary>
                         {% comment %} <ul class=" z-50 p-2 text-black text-lg">
                          
                         </ul> {% endcomment %}
@@ -101,14 +137,14 @@
                     <details>
                         <summary class="text-white text-lg text-transform: uppercase tracking-widest">Links</summary>
                         <ul class="z-50 p-2 text-black text-lg">
-                            <li><a>Infinite Campus</a></li>
-                            <li><a>Manual Redeye</a></li>
+                            <li><a target = "_blank" href = "https://jcpsky.infinitecampus.org/campus/portal/students/jcps.jsp">Infinite Campus</a></li>
+                            <li><a target = "_blank" href = "https://manualredeye.com/">Manual Redeye</a></li>
                            
-                            <li><a>Academic Calendar</a></li>
-                            <li><a>Lunch Menu</a></li>
-                            <li><a>PTSA</a></li>
-                            <li><a>Crimson Mission</a></li>
-                            <li><a>Alumni</a></li>
+                            <li><a target = "_blank" href = "https://www.jefferson.kyschools.us/o/jcps/page/calendar-at-a-glance" >Academic Calendar</a></li>
+                            <li><a target = "_blank" href = "https://jcps.nutrislice.com/menu/dupont-manual" >Lunch Menu</a></li>
+                            <li><a target = "_blank" href = "https://manualptsa.com/" >PTSA</a></li>
+                            <li><a target = "_blank" href = "https://www.thecrimsonmission.org/" >Crimson Mission</a></li>
+                            <li><a target = "_blank" href = "https://dupontmanualalumni.com/" >Alumni</a></li>
                         </ul>
                     </details>
                     <details>
@@ -116,7 +152,7 @@
                         <ul class="z-50 p-2 text-black text-lg">
                            
                             <li><a>Staff Contacts </a></li>
-                            <li><a>Map & Directions</a></li>
+                            <li><a target = "_blank" href = "https://www.google.com/maps/place/DuPont+Manual+High+School/@38.2295455,-85.7564096,2508m/data=!3m1!1e3!4m6!3m5!1s0x88690d5ced063c7b:0x9323d9ceab1ed168!8m2!3d38.2223769!4d-85.7582583!16zL20vMGp2ZnY?entry=ttu&g_ep=EgoyMDI0MTAwOS4wIKXMDSoASAFQAw%3D%3D">Map & Directions</a></li>
                             
                         </ul>
                     </details>
@@ -913,18 +949,18 @@
 
        
 
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 w-[90%] mx-auto my-10 " >
-            <div class="grid gap-4 " >
+        <div  class="grid grid-cols-2 md:grid-cols-4 gap-4 w-[90%] mx-auto my-10 " >
+            <div   class="grid gap-4 " >
 
-                <div class = "ease-in-out duration-500 hover:scale-110 cursor-pointer">
+                <div data-aos="fade-in" data-aos-duration = "2000" class = "aos-hover cursor-pointer">
                     <img class="h-full max-w-full rounded-lg" src="{% static "./images/sportsoccergirl.JPG" %}" alt="">
                 </div>
 
-                <div class = "ease-in-out duration-500 hover:scale-110 cursor-pointer">
+                <div  data-aos="fade-in" data-aos-duration = "2000" class = "aos-hover cursor-pointer">
                     <img class="h-full max-w-full rounded-lg" src="{% static "./images/mrgarret.JPG" %}" alt="">
                 </div>
 
-                <div class = "ease-in-out duration-500 hover:scale-110 cursor-pointer">
+                <div data-aos="fade-in" data-aos-duration = "2000" class = "aos-hover cursor-pointer">
                     <img class="lg:h-[400px] h-[200px] max-w-full rounded-lg" src="{% static "./images/studentlife1.JPG" %}" alt="">
                 </div>
             </div>
@@ -932,17 +968,17 @@
 
             <div class="grid gap-4">
 
-                <div class = "ease-in-out duration-500 hover:scale-110 cursor-pointer" >
+                <div data-aos="fade-in" data-aos-duration = "2000" class = "aos-hover cursor-pointer" >
                     <img class="h-full max-w-full rounded-lg" src="{% static "./images/deca2.png" %}" alt="">
                 </div>
 
 
-                <div class = "ease-in-out duration-500 hover:scale-110 cursor-pointer">
+                <div data-aos="fade-in" data-aos-duration = "2000" class = "aos-hover cursor-pointer">
                     <img class="h-full max-w-full rounded-lg" src="{% static "./images/studentlife2.JPG" %}" alt="">
                 </div>
 
 
-                <div class = "ease-in-out duration-500 hover:scale-110 cursor-pointer">
+                <div data-aos="fade-in" data-aos-duration = "2000" class = "aos-hover cursor-pointer">
                     <img class="h-auto max-w-full rounded-lg" src="{% static "./images/studentlifecarnival.jpg" %}" alt="">
                 </div>
 
@@ -950,30 +986,30 @@
             </div>
             <div class="grid gap-4">
 
-                <div class = "ease-in-out duration-500 hover:scale-110 cursor-pointer">
+                <div data-aos="fade-in" data-aos-duration = "2000" class = "aos-hover cursor-pointer">
                     <img class="h-full max-w-full rounded-lg" src="{% static "./images/neongreen1.JPG" %}" alt="">
                 </div>
 
-                <div class = "ease-in-out duration-500 hover:scale-110 cursor-pointer">
+                <div data-aos="fade-in" data-aos-duration = "2000" class = "aos-hover cursor-pointer">
                     <img class="h-full max-w-full rounded-lg" src="{% static "./images/homecomingpep.JPG" %}" alt="">
                 </div>
 
-                <div class = "ease-in-out duration-500 hover:scale-110 cursor-pointer">
+                <div data-aos="fade-in" data-aos-duration = "2000" class = "aos-hover cursor-pointer">
                     <img class="h-auto max-w-full rounded-lg" src="{% static "./images/basketball1.JPG" %}" alt="">
                 </div>
 
             </div>
             <div class="grid gap-4">
 
-                <div class = "ease-in-out duration-500 hover:scale-110 cursor-pointer">
+                <div  data-aos="fade-in" data-aos-duration = "2000" class = "aos-hover cursor-pointer">
                     <img class="lg:h-[400px] h-[200px] max-w-full rounded-lg" src="{% static "./images/patriotshi.webp" %}" alt="">
                 </div>
 
-                <div class = "ease-in-out duration-500 hover:scale-110 cursor-pointer">
+                <div data-aos="fade-in" data-aos-duration = "2000"  class = "aos-hover cursor-pointer">
                     <img class="h-full max-w-full rounded-lg" src="{% static "./images/Lanisha.JPG" %}" alt="">
                 </div>
 
-                <div class = "ease-in-out duration-500 hover:scale-110 cursor-pointer">
+                <div data-aos="fade-in" data-aos-duration = "2000"  class = "aos-hover cursor-pointer">
                     <img class="h-auto max-w-full rounded-lg" src="{% static "./images/seniorsbest.JPG" %}" alt="">
                 </div>
 
@@ -992,7 +1028,7 @@
     </section> 
 
 
-    <section class = "" style = "background-color: #9D2235; "> 
+    <section id = "history" class = "" style = "background-color: #9D2235; "> 
 
        {% comment %} TOP SECTION {% endcomment %}
         <div class="w-full flex sm:flex-row flex-col justify-between p-5 md:p-10">
@@ -1029,11 +1065,13 @@
             <div class="relative w-full">
                 <img src="{% static './images/bottommatrix.png' %}" class="w-full">
         
-                <div class="absolute inset-0 bg-black/50 flex sm:flex-col flex-row justify-center items-center">
+                <div class="absolute inset-0 bg-black/50 flex sm:flex-col flex-row justify-center items-center ease-in-out duration-500 hover:scale-125 cursor-pointer">
+
+                    
                     <img class = "text-white md:w-40 md:h-40 sm:h-28 sm:w-28 w-24 h-24" src = "{% static './images/playbutton2.svg' %}">
 
                     {% comment %} text section {% endcomment %}
-                    <div class = "sm:w-1/2 w-full text-center"> 
+                    <div class = "sm:w-1/2 w-full text-center "> 
                     <p class="text-white lg:text-5xl sm:text-3xl text-xl md:text-4xl font-bold">Video Tour Of Manual</p>
                     <p class = "sm:mt-5 mt-3 lg:text-xl text-sm sm:text-md md:text-lg font-noto-serif text-white font-bold ">Take a tour of Dupont Manual and learn what makes us the #1 high school in all of Kentucky!</p>
 
@@ -1055,12 +1093,14 @@
         </aside>
         <nav class = "mx-auto md:mx-0">
           <h6 class="footer-title text-white opacity-100 text-xl tracking-wider" >About</h6>
-          <a class="link link-hover text-white text-lg">Mission & Vision</a>
-          <a class="link link-hover text-white text-lg">School History</a>
-          <a class="link link-hover text-white text-lg">Equity Plan</a>
-          <a class="link link-hover text-white text-lg">SBDM Policies</a>
-          <a class="link link-hover text-white text-lg">Student Agenda</a>
+          <a class="link link-hover text-white text-lg" href = "#our-mission">Mission & Vision</a>
+          <a class="link link-hover text-white text-lg" href = "#history">School History</a>
+          <a class="link link-hover text-white text-lg" target = "_blank" href = "https://drive.google.com/file/d/1mzyQkUPfqIJSzoBAElTnGKq45aJ5nCF3/view">Equity Plan</a>
+          <a class="link link-hover text-white text-lg" target = "_blank" href = "https://docs.google.com/document/d/14JSQJExyB3O_oC0RmBG4VxIq9U4MPneCSH6oUNqtBss/edit" >SBDM Policies</a>
+          <a class="link link-hover text-white text-lg" target = "_blank" href = "https://www.dupontmanual.com/pubs/studenthandbook.pdf">Student Agenda</a>
         </nav>
+
+
         <nav class = "mx-auto md:mx-0">
             <h6 class="footer-title text-white opacity-100 text-xl tracking-wider" >Athletics</h6>
             <a class="link link-hover text-white text-lg">Sports Teams</a>
@@ -1070,11 +1110,12 @@
         </nav>
         <nav class = "mx-auto md:mx-0">
             <h6 class="footer-title text-white opacity-100 text-xl tracking-wider" >Links</h6>
-            <a class="link link-hover text-white text-lg">Infinite Campus</a>
-          <a class="link link-hover link link-hover text-white text-lg">Academic Calender</a>
+            <a class="link link-hover text-white text-lg" target = "_blank" href = "https://jcpsky.infinitecampus.org/campus/portal/students/jcps.jsp">Infinite Campus</a>
+          <a class="link link-hover link link-hover text-white text-lg" target = "_blank" href = "https://www.jefferson.kyschools.us/o/jcps/page/calendar-at-a-glance">Academic Calender</a>
           <a class="link link-hover link link-hover text-white text-lg">Staff Contacts</a>
-          <a class="link link-hover link link-hover text-white text-lg">PTSA</a>
-          <a class="link link-hover link link-hover text-white text-lg">Crimson Mission</a>
+          <a class="link link-hover link link-hover text-white text-lg" target = "_blank" href = "https://manualptsa.com/">PTSA</a>
+          <a class="link link-hover link link-hover text-white text-lg" target = "_blank" href = "https://www.thecrimsonmission.org/">Crimson Mission</a>
+
 
 
         </nav>
