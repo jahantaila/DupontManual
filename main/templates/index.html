@@ -16,17 +16,103 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
+  <script src = "{% static 'script.js' %}" defer></script>
 
 
     
 </head>
 <body class = "scroll-smooth" style = "overflow-x: hidden;">
 
+    {% comment %} STICKY NAV SHI  {% endcomment %}
+
+    <div  id = "hamburgerMenu" class="fixed   z-[100] top-[80%] right-0  w-[80px] h-[80px] border-white border-4 rounded-full bg-gradient-to-b from-[#9D2235] to-[#66000F] flex items-center justify-center shadow-xl hover:border-opacity-75 transition-all duration-400 ease-in-out hover:scale-125 cursor-pointer">
+        <div tabindex="0" role="button" class="">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-[40px] w-[40px]"  fill="none" viewBox="0 0 24 24"
+                stroke="white">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+            </svg>
+        </div>
+    </div>
+
+
+    <div id="navBarContainer" class="fixed hidden z-[200] inset-0 w-full h-full bg-gradient-to-b from-[#9D2235] to-[#66000F]">
+        <div id="x-div" class="h-[70px] p-2 mx-2 cursor-pointer w-[70px]">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-[70px] p-2 mx-2 cursor-pointer w-[70px] text-white transition-transform duration-300 transform hover:scale-110" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+        </div>
+    
+
+
+        <ul class="menu menu-vertical px-1 h-full justify-center ">
+            <li class="menu menu-vertical px-4 space-x-9">
+                <details class = "color-white">
+                    <summary class="text-white text-2xl text-transform: uppercase tracking-widest">About</summary>   <!--✅✅✅-->
+                    <ul class=" z-50 p-2 text-white text-lg">
+                        <li><a href = "#our-mission">Mission & Vision</a></li>
+                        <li><a href = "#history">School History</a></li>
+                        <li><a target = "_blank" href = "https://dupontmanual.com/pubs/ManualRacialEquityPlan.pdf">Equity Plan</a></li>
+                        <li><a target = "_blank" href = "https://docs.google.com/document/d/14JSQJExyB3O_oC0RmBG4VxIq9U4MPneCSH6oUNqtBss/edit?tab=t.0">SBDM Policies</a></li>
+                        <li><a target = "_blank" href = "https://www.dupontmanual.com/pubs/studenthandbook.pdf">Student Agenda</a></li>
+                       
+                    </ul>
+                </details>
+                
+               
+            </li>
+
+            <li class="menu menu-vertical px-4 py-4 space-x-9">
+                <details class = "color-white">
+                    <summary class="text-white text-2xl text-transform: uppercase tracking-widest">Athletics</summary>   <!--✅✅✅-->
+                    <ul class=" z-50 p-2 text-white text-lg">
+                        <li><a target = "_blank" href = "">Sports Teams</a></li>
+                        <li><a target = "_blank" href = "">Game Schedules</a></li>
+                        <li><a target = "_blank" href = "">Athletic Facilities</a></li>
+                       
+                    </ul>
+                </details>
+            </li>
+
+
+
+            <li class="menu menu-vertical px-4 py-4 space-x-9">
+                <details class = "color-white">
+                    <summary class="text-white text-2xl text-transform: uppercase tracking-widest">Links</summary>   <!--✅✅✅-->
+                    <ul class=" z-50 p-2 text-white text-lg">
+                        <li><a target = "_blank" href = "https://jcpsky.infinitecampus.org/campus/portal/students/jcps.jsp">Infinite Campus</a></li>
+                        <li><a target = "_blank" href = "https://manualredeye.com/">Manual Redeye</a></li>
+                        <li><a target = "_blank" href = "https://www.jefferson.kyschools.us/o/jcps/page/calendar-at-a-glance" >Academic Calendar</a></li>
+                        <li><a target = "_blank" href = "https://jcps.nutrislice.com/menu/dupont-manual" >Lunch Menu</a></li>
+                        <li><a target = "_blank" href = "https://manualptsa.com/" >PTSA</a></li>
+                        <li><a target = "_blank" href = "https://www.thecrimsonmission.org/" >Crimson Mission</a></li>
+                        <li><a target = "_blank" href = "https://dupontmanualalumni.com/" >Alumni</a></li>
+                    </ul>
+                </details>
+            </li>
+
+
+            <li class="menu menu-vertical px-4 py-4 space-x-9">
+                <details class = "color-white">
+                    <summary class="text-white text-2xl text-transform: uppercase tracking-widest">Contact</summary>   <!--✅✅✅-->
+                    <ul class=" z-50 p-2 text-white text-lg">
+                        <li><a>Staff Contacts </a></li>
+                        <li><a target = "_blank" href = "https://www.google.com/maps/place/DuPont+Manual+High+School/@38.2295455,-85.7564096,2508m/data=!3m1!1e3!4m6!3m5!1s0x88690d5ced063c7b:0x9323d9ceab1ed168!8m2!3d38.2223769!4d-85.7582583!16zL20vMGp2ZnY?entry=ttu&g_ep=EgoyMDI0MTAwOS4wIKXMDSoASAFQAw%3D%3D">Map & Directions</a></li>
+                    </ul>
+                </details>
+            </li>
+
+
+            
+        </ul>
+
+        
+
+    </div> 
 
 
 
 
-   <section >
+   <section id = "navBar">
 <div class="bg-white text-black padding text-center font-bold flex flex-col sm:flex-row justify-center space-y-2 sm:space-y-0 sm:space-x-4" style="padding-top: 10px;">
     <span>Proficient in Reading: <strong>31%</strong></span>
     <span class="hidden sm:inline">|</span>
